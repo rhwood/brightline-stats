@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 import { DataSourceIcon } from '@patternfly/react-icons';
 import {
   Button,
@@ -13,7 +12,6 @@ import {
   PageSection,
   Text,
   TextContent,
-  TextVariants,
 } from '@patternfly/react-core';
 
 export interface ISourcesProps {
