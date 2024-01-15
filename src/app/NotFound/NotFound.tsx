@@ -1,14 +1,14 @@
 import * as React from 'react';
-import { ExclamationTriangleIcon } from '@patternfly/react-icons';
+import { ExclamationTriangleIcon } from '@patternfly/react-icons/dist/dynamic/icons/exclamation-triangle-icon'
+import { Button } from '@patternfly/react-core/dist/dynamic/components/Button'
 import {
-  Button,
   EmptyState,
   EmptyStateBody,
   EmptyStateFooter,
   EmptyStateHeader,
-  EmptyStateIcon,
-  PageSection,
-} from '@patternfly/react-core';
+  EmptyStateIcon
+} from '@patternfly/react-core/dist/dynamic/components/EmptyState'
+import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { useHistory } from 'react-router-dom';
 
 const NotFound: React.FunctionComponent = () => {

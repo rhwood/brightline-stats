@@ -1,24 +1,19 @@
 import * as React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
+import { Brand } from '@patternfly/react-core/dist/dynamic/components/Brand'
+import { Button } from '@patternfly/react-core/dist/dynamic/components/Button'
 import {
-  Brand,
-  Button,
   Masthead,
   MastheadBrand,
   MastheadMain,
-  MastheadToggle,
-	Nav,
-  NavExpandable,
-  NavItem,
-	NavList,
-	Page,
-	PageSidebar,
-  PageSidebarBody,
-	SkipToContent
-} from '@patternfly/react-core';
+  MastheadToggle
+} from '@patternfly/react-core/dist/dynamic/components/Masthead'
+import { Nav, NavExpandable, NavItem, NavList } from '@patternfly/react-core/dist/dynamic/components/Nav'
+import { Page, PageSidebar, PageSidebarBody } from '@patternfly/react-core/dist/dynamic/components/Page'
+import { SkipToContent } from '@patternfly/react-core/dist/dynamic/components/SkipToContent'
 import { IAppRoute, IAppRouteGroup, routes } from '@app/routes';
 import logo from '@app/bgimages/Patternfly-Logo.svg';
-import { BarsIcon } from '@patternfly/react-icons';
+import { BarsIcon } from '@patternfly/react-icons/dist/dynamic/icons/bars-icon'
 
 interface IAppLayout {
   children: React.ReactNode;

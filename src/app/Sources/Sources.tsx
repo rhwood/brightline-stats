@@ -1,18 +1,17 @@
 import * as React from 'react';
-import { DataSourceIcon } from '@patternfly/react-icons';
+import { DataSourceIcon } from '@patternfly/react-icons/dist/dynamic/icons/data-source-icon'
+import { Button } from '@patternfly/react-core/dist/dynamic/components/Button'
 import {
-  Button,
   EmptyState,
   EmptyStateActions,
   EmptyStateBody,
   EmptyStateFooter,
   EmptyStateHeader,
   EmptyStateIcon,
-  EmptyStateVariant,
-  PageSection,
-  Text,
-  TextContent,
-} from '@patternfly/react-core';
+  EmptyStateVariant
+} from '@patternfly/react-core/dist/dynamic/components/EmptyState'
+import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
+import { Text, TextContent } from '@patternfly/react-core/dist/dynamic/components/Text'
 
 export interface ISourcesProps {
   sampleProp?: string;
