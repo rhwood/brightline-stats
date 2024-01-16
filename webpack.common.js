@@ -103,6 +103,15 @@ module.exports = (env) => {
             },
           ],
         },
+        {
+          test: /\.(csv|tsv)$/i,
+          loader: 'csv-loader',
+          options: {
+            dynamicTyping: true,
+            header: true,
+            skipEmptyLines: true
+          },
+        },
       ],
     },
     output: {
