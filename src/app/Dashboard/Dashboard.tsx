@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
-import { Chart, ChartAxis, ChartGroup, ChartLine, ChartVoronoiContainer } from '@patternfly/react-charts';
+import { Chart, ChartAxis, ChartGroup, ChartLine, ChartThemeColor, ChartVoronoiContainer } from '@patternfly/react-charts';
 // @ts-ignore
 import ridership from "../../monthly-ridership.csv";
 import { ReactNodeArray } from 'prop-types';
@@ -29,13 +29,14 @@ const TotalChart = () => (
     legendPosition="right"
     height={250}
     minDomain={{y: 0}}
-    name="chart1"
+    name="Total Ridership"
     padding={{
       bottom: 50,
       left: 50,
       right: 200, // Adjusted to accommodate legend
       top: 50
     }}
+    themeColor={ChartThemeColor.multiUnordered}
     width={600}
 >
     <ChartAxis tickValues={ticks} />
@@ -48,7 +49,7 @@ const TotalChart = () => (
 
 const Dashboard: React.FunctionComponent = () => (
   <PageSection>
-    <Title headingLevel="h1" size="lg">Ridership</Title>
+    <Title headingLevel="h1" size="lg">Total Ridership</Title>
     <TotalChart />
   </PageSection>
 )
