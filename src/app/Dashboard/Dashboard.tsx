@@ -2,26 +2,25 @@ import * as React from 'react';
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
 import { Chart, ChartAxis, ChartGroup, ChartLine, ChartThemeColor, ChartVoronoiContainer } from '@patternfly/react-charts';
-// @ts-ignore
+// @ts-expect-error CSV is not typescript
 import ridership from "../../monthly-ridership.csv";
-import { ReactNodeArray } from 'prop-types';
 
 const ticks = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 function getYears(): number[] {
   return ridership.reduce(
-    (prev: number[], row: any) =>
+    (prev: number[], row) =>
     prev.some(x => x === row.Year)? prev: [...prev, row.Year], []
   );
 }
 
 function getLine(year: number, y: (any) => number ) {
   return ridership.filter(x => x.Year === year).reduce(
-    (prev: any[], row: any) => [...prev, { name: row.Year, x: row.Month, y: y(row) }], []
+    (prev: [], row) => [...prev, { name: row.Year, x: row.Month, y: y(row) }], []
   );
 }
 
-function totalRow(row: any): number {
+function totalRow(row): number {
   return row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke;
 }
 
@@ -46,7 +45,7 @@ const TotalChart = () => (
     <ChartAxis tickValues={ticks} />
     <ChartAxis dependentAxis showGrid tickValues={[]} />
     <ChartGroup>
-      { getYears().map((year) => <ChartLine data={ getLine(year, totalRow) } />) }
+      { getYears().map((year) => <ChartLine key={year} data={ getLine(year, totalRow) } />) }
     </ChartGroup> 
   </Chart>
 )
