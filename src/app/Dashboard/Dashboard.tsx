@@ -15,10 +15,14 @@ function getYears(): number[] {
   );
 }
 
-function getLine(year: number) {
+function getLine(year: number, y: (any) => number ) {
   return ridership.filter(x => x.Year === year).reduce(
-    (prev: any[], row: any) => [...prev, { name: row.Year, x: row.Month, y: row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke }], []
+    (prev: any[], row: any) => [...prev, { name: row.Year, x: row.Month, y: y(row) }], []
   );
+}
+
+function totalRow(row: any): number {
+  return row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke;
 }
 
 const TotalChart = () => (
@@ -38,11 +42,11 @@ const TotalChart = () => (
     }}
     themeColor={ChartThemeColor.multiUnordered}
     width={600}
->
+  >
     <ChartAxis tickValues={ticks} />
     <ChartAxis dependentAxis showGrid tickValues={[]} />
     <ChartGroup>
-      { getYears().map((year) => <ChartLine data={getLine(year)} />) }
+      { getYears().map((year) => <ChartLine data={ getLine(year, totalRow) } />) }
     </ChartGroup> 
   </Chart>
 )
