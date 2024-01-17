@@ -4,11 +4,11 @@ import { Dashboard } from '@app/Dashboard/Dashboard';
 import { Support } from '@app/Support/Support';
 import { Sources } from '@app/Sources/Sources';
 import { NewportNews } from '@app/Corridors/NewportNews';
+import { Norfolk } from '@app/Corridors/Norfolk';
+import { Richmond } from '@app/Corridors/Richmond';
+import { Roanoke } from '@app/Corridors/Roanoke';
 import { NotFound } from '@app/NotFound/NotFound';
 import { useDocumentTitle } from '@app/utils/useDocumentTitle';
-import { Norfolk } from './Corridors/Norfolk';
-import { Richmond } from './Corridors/Richmond';
-import { Roanoke } from './Corridors/Roanoke';
 
 let routeFocusTimer: number;
 export interface IAppRoute {
