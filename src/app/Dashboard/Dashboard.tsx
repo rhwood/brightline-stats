@@ -5,22 +5,37 @@ import { Chart, ChartAxis, ChartGroup, ChartLine, ChartThemeColor, ChartVoronoiC
 // @ts-expect-error CSV is not typescript
 import ridership from "../../monthly-ridership.csv";
 
+interface Ridership {
+  Year: number
+  Month: number
+  'Newport News': number
+  Norfolk: number
+  Richmond: number
+  Roanoke: number
+}
+
+interface Row {
+  name: number
+  x: number
+  y: number
+}
+
 const ticks = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 function getYears(): number[] {
   return ridership.reduce(
-    (prev: number[], row) =>
+    (prev: number[], row: Ridership) =>
     prev.some(x => x === row.Year)? prev: [...prev, row.Year], []
   );
 }
 
-function getLine(year: number, y: (any) => number ) {
-  return ridership.filter(x => x.Year === year).reduce(
-    (prev: [], row) => [...prev, { name: row.Year, x: row.Month, y: y(row) }], []
+function getLine(year: number, yfn: (row: Ridership) => number ): Row[] {
+  return ridership.filter((row: Ridership) => row.Year === year).reduce(
+    (prev: Row[], row: Ridership) => [...prev, { name: row.Year, x: row.Month, y: yfn(row) }], []
   );
 }
 
-function totalRow(row): number {
+function totalRow(row: Ridership): number {
   return row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke;
 }
 

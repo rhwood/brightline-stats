@@ -241,8 +241,535 @@ exports[`App tests should render default App component 1`] = `
           data-ouia-component-type="PF5/Title"
           data-ouia-safe="true"
         >
-          Dashboard Page Title!
+          Total Ridership
         </h1>
+        <div
+          class="pf-v5-c-chart"
+          style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;"
+        >
+          <svg
+            height="250"
+            role="img"
+            style="pointer-events: all; width: 100%; height: 100%;"
+            viewBox="0 0 600 250"
+            width="600"
+          >
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="50"
+                x2="400"
+                y1="200"
+                y2="200"
+              />
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="50"
+                  x2="50"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-0"
+                  x="50"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="50"
+                  >
+                    Jan
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="81.81818181818181"
+                  x2="81.81818181818181"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-1"
+                  x="81.81818181818181"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="81.81818181818181"
+                  >
+                    Feb
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="113.63636363636364"
+                  x2="113.63636363636364"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-2"
+                  x="113.63636363636364"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="113.63636363636364"
+                  >
+                    Mar
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="145.45454545454544"
+                  x2="145.45454545454544"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-3"
+                  x="145.45454545454544"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="145.45454545454544"
+                  >
+                    Apr
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="177.27272727272728"
+                  x2="177.27272727272728"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-4"
+                  x="177.27272727272728"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="177.27272727272728"
+                  >
+                    May
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="209.0909090909091"
+                  x2="209.0909090909091"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-5"
+                  x="209.0909090909091"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="209.0909090909091"
+                  >
+                    Jun
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="240.90909090909088"
+                  x2="240.90909090909088"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-6"
+                  x="240.90909090909088"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="240.90909090909088"
+                  >
+                    Jul
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="272.7272727272727"
+                  x2="272.7272727272727"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-7"
+                  x="272.7272727272727"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="272.7272727272727"
+                  >
+                    Aug
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="304.54545454545456"
+                  x2="304.54545454545456"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-8"
+                  x="304.54545454545456"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="304.54545454545456"
+                  >
+                    Sep
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="336.3636363636364"
+                  x2="336.3636363636364"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-9"
+                  x="336.3636363636364"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="336.3636363636364"
+                  >
+                    Oct
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="368.1818181818182"
+                  x2="368.1818181818182"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-10"
+                  x="368.1818181818182"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="368.1818181818182"
+                  >
+                    Nov
+                  </tspan>
+                </text>
+              </g>
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="400"
+                  x2="400"
+                  y1="200"
+                  y2="205"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-0-ChartLabel-11"
+                  x="400"
+                  y="226.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                    text-anchor="middle"
+                    x="400"
+                  >
+                    Dec
+                  </tspan>
+                </text>
+              </g>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="50"
+                x2="50"
+                y1="50"
+                y2="200"
+              />
+              <g
+                role="presentation"
+              >
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                  vector-effect="non-scaling-stroke"
+                  x1="50"
+                  x2="400"
+                  y1="200"
+                  y2="200"
+                />
+                <line
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                  vector-effect="non-scaling-stroke"
+                  x1="50"
+                  x2="45"
+                  y1="200"
+                  y2="200"
+                />
+                <text
+                  direction="inherit"
+                  dx="0"
+                  id="Total Ridership-ChartAxis-1-ChartLabel-0"
+                  x="35"
+                  y="204.97"
+                >
+                  <tspan
+                    dx="0"
+                    dy="0"
+                    style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: end;"
+                    text-anchor="end"
+                    x="35"
+                  />
+                </text>
+              </g>
+            </g>
+            <g>
+              <g
+                clip-path="url(#victory-clip-2)"
+                style="height: 100%; width: 100%; user-select: none;"
+              >
+                <defs>
+                  <clippath
+                    id="victory-clip-2"
+                  >
+                    <rect
+                      height="150"
+                      vector-effect="non-scaling-stroke"
+                      width="350"
+                      x="50"
+                      y="50"
+                    />
+                  </clippath>
+                </defs>
+                <path
+                  d="M113.63636363636364,50L145.45454545454544,50"
+                  role="presentation"
+                  shape-rendering="auto"
+                  style="fill: none; stroke: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); pointer-events: stroke; width: 88px; opacity: 1; stroke-width: 2;"
+                />
+              </g>
+            </g>
+            <g>
+              <rect
+                height="14"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: none;"
+                vector-effect="non-scaling-stroke"
+                width="39.6"
+                x="416"
+                y="120"
+              />
+              <path
+                d="M 425.128, 138.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c);"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="Total Ridership-ChartLegend-ChartLabel-0"
+                x="446.8"
+                y="138.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);"
+                  text-anchor="start"
+                  x="446.8"
+                >
+                  1900
+                </tspan>
+              </text>
+            </g>
+          </svg>
+          <div
+            style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+          >
+            <svg
+              height="250"
+              style="overflow: visible; width: 100%; height: 100%;"
+              viewBox="0 0 600 250"
+              width="600"
+            />
+          </div>
+        </div>
       </section>
     </main>
   </div>
