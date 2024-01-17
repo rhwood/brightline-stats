@@ -150,7 +150,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v5-c-nav__link"
-                      href="/corridors/Newport News"
+                      href="/corridors/newport-news"
                     >
                       Newport News
                     </a>
@@ -163,7 +163,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v5-c-nav__link"
-                      href="/corridors/Norfolk"
+                      href="/corridors/norfolk"
                     >
                       Norfolk
                     </a>
@@ -176,7 +176,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v5-c-nav__link"
-                      href="/corridors/Richmond"
+                      href="/corridors/richmond"
                     >
                       Richmond
                     </a>
@@ -189,7 +189,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v5-c-nav__link"
-                      href="/corridors/Roanoke"
+                      href="/corridors/roanoke"
                     >
                       Roanoke
                     </a>
