@@ -3,7 +3,10 @@ import { Route, RouteComponentProps, Switch, useLocation } from 'react-router-do
 import { Dashboard } from '@app/Dashboard/Dashboard';
 import { Support } from '@app/Support/Support';
 import { Sources } from '@app/Sources/Sources';
-import { GeneralSettings } from '@app/Settings/General/GeneralSettings';
+import { NewportNews } from '@app/Corridors/NewportNews';
+import { Norfolk } from '@app/Corridors/Norfolk';
+import { Richmond } from '@app/Corridors/Richmond';
+import { Roanoke } from '@app/Corridors/Roanoke';
 import { NotFound } from '@app/NotFound/NotFound';
 import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 
@@ -36,15 +39,36 @@ const routes: AppRouteConfig[] = [
   },
   {
     label: 'Corridors',
-    routes: Array.from(['Newport News', 'Norfolk', 'Richmond', 'Roanoke'], (corridor) => {
-      return {
-        component: GeneralSettings,
+    routes: [
+      {
+        component: NewportNews,
         exact: true,
-        label: corridor,
-        path: '/corridors/' + corridor,
-        title: 'Amtrak Virginia Ridership | ' + corridor
+        label: 'Newport News',
+        path: '/corridors/newport-news',
+        title: 'Amtrak Virginia Ridership | Newport News'
+      },
+      {
+        component: Norfolk,
+        exact: true,
+        label: 'Norfolk',
+        path: '/corridors/norfolk',
+        title: 'Amtrak Virginia Ridership | Norfolk'
+      },
+      {
+        component: Richmond,
+        exact: true,
+        label: 'Richmond',
+        path: '/corridors/richmond',
+        title: 'Amtrak Virginia Ridership | Richmond'
+      },
+      {
+        component: Roanoke,
+        exact: true,
+        label: 'Roanoke',
+        path: '/corridors/roanoke',
+        title: 'Amtrak Virginia Ridership | Roanoke'
       }
-    }),
+    ],
   },
   {
     component: Sources,

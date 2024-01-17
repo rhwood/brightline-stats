@@ -1,6 +1,6 @@
 import * as React from 'react';
 import App from '@app/index';
-import { render, screen,  } from '@testing-library/react';
+import { act, render, screen,  } from '@testing-library/react';
 import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
 
@@ -33,7 +33,7 @@ describe('App tests', () => {
   it('should expand the sidebar on larger viewports', () => {
     render(<App />);
 
-    window.dispatchEvent(new Event('resize'));
+    act(() => window.dispatchEvent(new Event('resize')));
 
     expect(screen.getByRole('link', { name: "Ridership"})).toBeVisible();
   });
@@ -43,7 +43,7 @@ describe('App tests', () => {
 
     render(<App />);
 
-    window.dispatchEvent(new Event('resize'));
+    act(() => window.dispatchEvent(new Event('resize')));
     const button = screen.getByRole('button', { name: "Global navigation"})
 
     expect(screen.getByRole('link', { name: "Ridership"})).toBeVisible();

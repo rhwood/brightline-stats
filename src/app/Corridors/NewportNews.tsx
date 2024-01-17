@@ -3,11 +3,11 @@ import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page
 import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
 import { MultiYearChart, Ridership } from '@app/utils/MultiYearChart';
 
-const Dashboard: React.FunctionComponent = () => (
+const NewportNews: React.FunctionComponent = () => (
   <PageSection>
-    <Title headingLevel="h1" size="lg">Total Ridership</Title>
-    <MultiYearChart lineFn={(row: Ridership): number => row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke} />
+    <Title headingLevel="h1" size="lg">Newport News Corridor Ridership</Title>
+    <MultiYearChart lineFn={(row: Ridership): number => row['Newport News']} />
   </PageSection>
 )
 
-export { Dashboard };
+export { NewportNews };
