@@ -20,26 +20,20 @@ interface Row {
   y: number
 }
 
-const ticks = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
-function getYears(): number[] {
-  return ridership.reduce(
+const getYears = (): number[] => 
+  ridership.reduce(
     (prev: number[], row: Ridership) =>
     prev.some(x => x === row.Year)? prev: [...prev, row.Year], []
   );
-}
 
-function getLine(year: number, yfn: (row: Ridership) => number ): Row[] {
-  return ridership.filter((row: Ridership) => row.Year === year).reduce(
-    (prev: Row[], row: Ridership) => [...prev, { name: row.Year, x: row.Month, y: yfn(row) }], []
+const getLine = (year: number, yFn: (row: Ridership) => number ): Row[] =>
+  ridership.filter((row: Ridership) => row.Year === year).reduce(
+    (prev: Row[], row: Ridership) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
   );
-}
 
-function totalRow(row: Ridership): number {
-  return row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke;
-}
-
-const TotalChart = () => (
+const MultiYearChart = ({lineFn}) => (
   <Chart
     containerComponent={<ChartVoronoiContainer labels={({ datum }) => `${datum.name}: ${datum.y}`} constrainToVisibleArea />}
     legendData={getYears().map(year => { return { name : String(year) } })}
@@ -57,10 +51,10 @@ const TotalChart = () => (
     themeColor={ChartThemeColor.multiUnordered}
     width={600}
   >
-    <ChartAxis tickValues={ticks} />
+    <ChartAxis tickValues={months} />
     <ChartAxis dependentAxis showGrid tickValues={[]} />
     <ChartGroup>
-      { getYears().map((year) => <ChartLine key={year} data={ getLine(year, totalRow) } />) }
+      { getYears().map((year) => <ChartLine key={year} data={ getLine(year, lineFn) } />) }
     </ChartGroup> 
   </Chart>
 )
@@ -68,7 +62,7 @@ const TotalChart = () => (
 const Dashboard: React.FunctionComponent = () => (
   <PageSection>
     <Title headingLevel="h1" size="lg">Total Ridership</Title>
-    <TotalChart />
+    <MultiYearChart lineFn={(row: Ridership): number => row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke} />
   </PageSection>
 )
 
