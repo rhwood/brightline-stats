@@ -1,0 +1,49 @@
+name: Deploy Site
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # change to macos-latest once macos-13 becomes the latest
+    runs-on: macos-13
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@eb238b55efaa70779f274895e782ed17c84f2895 # v2.6.1
+        with:
+          egress-policy: audit
+
+      - name: Checkout 🛎️
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+    #   - uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2 # v4.0.0
+    #     with:
+    #       path: .build
+    #       key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
+    #       restore-keys: |
+    #         ${{ runner.os }}-spm-
+      - name: Build Site 🛠
+        run: npm build
+      - name: Upload artifact 📜
+        uses: actions/upload-pages-artifact@0252fc4ba7626f0298f0cf00902a25c6afc77fa8 # v3.0.0
+        with:
+          # Upload docs directory
+          path: dist
+      - name: Deploy to GitHub Pages 🐙
+        id: deployment
+        uses: actions/deploy-pages@87c3283f01cd6fe19a0ab93a23b2f6fcba5a8e42 # v4.0.3
