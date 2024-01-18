@@ -11,7 +11,7 @@ import {
   EmptyStateVariant
 } from '@patternfly/react-core/dist/dynamic/components/EmptyState'
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
-import { Text, TextContent, TextVariants } from '@patternfly/react-core/dist/dynamic/components/Text'
+import { Text, TextContent } from '@patternfly/react-core/dist/dynamic/components/Text'
 
 export interface ISupportProps {
   sampleProp?: string;
@@ -27,20 +27,18 @@ let Support: React.FunctionComponent<ISupportProps> = () => (
           <Text component="p">
             This site is not affiliated with Amtrak or the Virginia Passenger Rail Authority.
           </Text>
-          <Text component={TextVariants.small}>
-            This text has overridden a css component variable to demonstrate how to apply customizations using
-            PatternFly&apos;s global variable API.
+          <Text component="p">
+            This site was built as much to learn and practice the underlying techniques as to
+            provide a visualization for publicly provided data available elsewhere. Please report
+            any issues on GitHub.
           </Text>
         </TextContent>
       </EmptyStateBody><EmptyStateFooter>
-      <Button variant="primary">Primary Action</Button>
+      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/issues" variant="primary">GitHub Issues</Button>
       <EmptyStateActions>
-        <Button variant="link">Multiple</Button>
-        <Button variant="link">Action Buttons</Button>
-        <Button variant="link">Can</Button>
-        <Button variant="link">Go here</Button>
-        <Button variant="link">In the secondary</Button>
-        <Button variant="link">Action area</Button>
+        <Button component="a" href='https://www.amtrak.com/virginia' variant='link'>Amtrak</Button>
+        <Button component="a" href="https://vapassengerrailauthority.org" variant="link">VPRA</Button>
+        <Button component="a" href="https://en.wikipedia.org/wiki/Amtrak_Virginia" variant="link">Wikipedia</Button>
       </EmptyStateActions>
     </EmptyStateFooter></EmptyState>
   </PageSection>
