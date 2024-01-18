@@ -37,6 +37,12 @@ jobs:
     #       key: ${{ runner.os }}-spm-${{ hashFiles('**/Package.resolved') }}
     #       restore-keys: |
     #         ${{ runner.os }}-spm-
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+      - name: Install dependencies
+        run: npm install
       - name: Build Site 🛠
         run: npm run build
       - name: Upload artifact 📜
