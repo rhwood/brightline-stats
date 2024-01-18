@@ -29,7 +29,8 @@ let Support: React.FunctionComponent<ISupportProps> = () => (
           </Text>
           <Text component="p">
             This site was built as much to learn and practice the underlying techniques as to
-            provide a visualization for publicly provided data available elsewhere.
+            provide a visualization for publicly provided data available elsewhere. Please report
+            any issues on GitHub.
           </Text>
         </TextContent>
       </EmptyStateBody><EmptyStateFooter>
