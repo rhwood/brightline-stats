@@ -38,7 +38,7 @@ jobs:
     #       restore-keys: |
     #         ${{ runner.os }}-spm-
       - name: Build Site 🛠
-        run: npm build
+        run: npm run build
       - name: Upload artifact 📜
         uses: actions/upload-pages-artifact@0252fc4ba7626f0298f0cf00902a25c6afc77fa8 # v3.0.0
         with:
