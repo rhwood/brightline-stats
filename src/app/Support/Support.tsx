@@ -32,6 +32,9 @@ let Support: React.FunctionComponent<ISupportProps> = () => (
             provide a visualization for publicly provided data available elsewhere. Please report
             any issues on GitHub.
           </Text>
+          <Text component="p">
+            Built with ❤️ and ☕️ in Herndon, Virginia.
+          </Text>
         </TextContent>
       </EmptyStateBody><EmptyStateFooter>
       <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/issues" variant="primary">GitHub Issues</Button>
