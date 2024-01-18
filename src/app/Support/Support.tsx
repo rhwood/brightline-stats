@@ -11,7 +11,7 @@ import {
   EmptyStateVariant
 } from '@patternfly/react-core/dist/dynamic/components/EmptyState'
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
-import { Text, TextContent, TextVariants } from '@patternfly/react-core/dist/dynamic/components/Text'
+import { Text, TextContent } from '@patternfly/react-core/dist/dynamic/components/Text'
 
 export interface ISupportProps {
   sampleProp?: string;
