@@ -10,6 +10,8 @@ import { Roanoke } from '@app/Corridors/Roanoke';
 import { NotFound } from '@app/NotFound/NotFound';
 import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 
+const BASE_PATH = process.env.BASE_PATH || '/';
+
 let routeFocusTimer: number;
 export interface IAppRoute {
   label?: string; // Excluding the label will exclude the route from the nav sidebar in AppLayout
@@ -34,7 +36,7 @@ const routes: AppRouteConfig[] = [
     component: Dashboard,
     exact: true,
     label: 'Ridership',
-    path: '/',
+    path: BASE_PATH,
     title: 'Amtrak Virginia Ridership | Overall Ridership',
   },
   {
@@ -44,28 +46,28 @@ const routes: AppRouteConfig[] = [
         component: NewportNews,
         exact: true,
         label: 'Newport News',
-        path: '/corridors/newport-news',
+        path: BASE_PATH + 'corridors/newport-news',
         title: 'Amtrak Virginia Ridership | Newport News'
       },
       {
         component: Norfolk,
         exact: true,
         label: 'Norfolk',
-        path: '/corridors/norfolk',
+        path: BASE_PATH + 'corridors/norfolk',
         title: 'Amtrak Virginia Ridership | Norfolk'
       },
       {
         component: Richmond,
         exact: true,
         label: 'Richmond',
-        path: '/corridors/richmond',
+        path: BASE_PATH + 'corridors/richmond',
         title: 'Amtrak Virginia Ridership | Richmond'
       },
       {
         component: Roanoke,
         exact: true,
         label: 'Roanoke',
-        path: '/corridors/roanoke',
+        path: BASE_PATH + 'corridors/roanoke',
         title: 'Amtrak Virginia Ridership | Roanoke'
       }
     ],
@@ -74,14 +76,14 @@ const routes: AppRouteConfig[] = [
     component: Sources,
     exact: true,
     label: 'Sources',
-    path: '/sources',
+    path: BASE_PATH + 'sources',
     title: 'Amtrak Virginia Ridership | Sources',
   },
   {
     component: Support,
     exact: true,
     label: 'Support',
-    path: '/support',
+    path: BASE_PATH + 'support',
     title: 'Amtrak Virginia Ridership | Support Page',
   },
 ];
