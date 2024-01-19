@@ -27,7 +27,9 @@ export const MultiYearChart = ({ lineFn }) => (
       {getYears().map((year) => <ChartLine key={year} data={getLine(year, lineFn)} />)}
     </ChartGroup>
   </Chart>
-);export interface Ridership {
+);
+
+export interface Ridership {
   Year: number;
   Month: number;
   'Newport News': number;
