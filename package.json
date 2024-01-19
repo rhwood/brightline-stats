@@ -9,7 +9,7 @@
   "scripts": {
     "prebuild": "npm run type-check && npm run clean",
     "build": "webpack --config webpack.prod.js",
-    "build:gh": "BASE_PATH=/amtk-va-ridership/ webpack --config webpack.prod.js",
+    "build:gh": "ASSET_PATH=/amtk-va-ridership/ BASE_PATH=/amtk-va-ridership/ webpack --config webpack.prod.js",
     "start": "sirv dist --cors --single --host --port 8080",
     "start:dev": "webpack serve --color --progress --config webpack.dev.js",
     "test": "jest",
