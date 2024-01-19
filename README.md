@@ -2,6 +2,10 @@
 
 Amtrak Virginia Ridership Visualizer is an open source visualizer for ridership data provided by the Virginia Passenger Rail Authority.
 
+[![CI](https://github.com/rhwood/amtk-va-ridership/actions/workflows/ci.yaml/badge.svg)](https://github.com/rhwood/amtk-va-ridership/actions/workflows/ci.yaml)
+[![Deploy Site](https://github.com/rhwood/amtk-va-ridership/actions/workflows/deploy.yaml/badge.svg)](https://github.com/rhwood/amtk-va-ridership/actions/workflows/deploy.yaml)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/rhwood/amtk-va-ridership/badge)](https://securityscorecards.dev/viewer/?uri=github.com/rhwood/amtk-va-ridership)
+
 ## Quick-start
 
 ```bash
