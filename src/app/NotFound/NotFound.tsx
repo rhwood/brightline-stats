@@ -11,11 +11,13 @@ import {
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { useHistory } from 'react-router-dom';
 
+const BASE_PATH = process.env.BASE_PATH || '/';
+
 const NotFound: React.FunctionComponent = () => {
   function GoHomeBtn() {
     const history = useHistory();
     function handleClick() {
-      history.push('/');
+      history.push(BASE_PATH);
     }
     return (
       <Button onClick={handleClick}>Take me home</Button>
