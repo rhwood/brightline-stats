@@ -18,9 +18,8 @@ const Richmond: React.FunctionComponent = () => (
     <TextContent>
       <Text component={TextVariants.h3}>Notes</Text>
       <TextList isPlain>
-        <TextListItem>Services only on this corridor was suspended from March 2020 to August 2021.</TextListItem>
-        <TextListItem>Ridership origininating or terminating at stations in this corridor, but on Newport News
-          or Norfolk corridor services are shown under those services.</TextListItem>
+        <TextListItem>Services only on this corridor was suspended from April 2020 to September 2021 due to the pandemic.</TextListItem>
+        <TextListItem>In September 2021, service was extended from Richmond Staple Mills station to Richmond Main Street station.</TextListItem>
       </TextList>
     </TextContent>
   </PageSection>
