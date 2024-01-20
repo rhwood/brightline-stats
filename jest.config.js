@@ -6,7 +6,7 @@ module.exports = {
   clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
-  collectCoverage: false,
+  collectCoverage: true,
 
   // The directory where Jest should output its coverage files
   coverageDirectory: 'coverage',
@@ -22,7 +22,7 @@ module.exports = {
     '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js',
     "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
     "@app/(.*)": '<rootDir>/src/app/$1',
-    "monthly-ridership.csv$": '<rootDir>/test/monthly-ridership.js'
+    "monthly-ridership.csv$": '<rootDir>/__mocks__/monthly-ridership.js'
   },
 
   // A preset that is used as a base for Jest's configuration
