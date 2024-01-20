@@ -253,7 +253,7 @@ exports[`App tests should render default App component 1`] = `
             data-ouia-safe="true"
             data-pf-content="true"
           >
-            The Virginia Rail Passenger Authority (VRPA) sponsors eight Amtrak trains on four corridors. This site visualizes the ridership data that VRPA publishes.
+            The Virginia Rail Passenger Authority (VRPA) sponsors eight Amtrak trains on four corridors. This site visualizes the ridership data for those trains as provided monthly by the VRPA.
           </p>
         </div>
         <div
