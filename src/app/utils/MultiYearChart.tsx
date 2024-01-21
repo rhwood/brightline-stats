@@ -10,11 +10,11 @@ export const MultiYearChart = ({ lineFn }) => (
     legendOrientation="vertical"
     legendPosition="right"
     height={250}
-    minDomain={{ y: 0 }}
-    name="Total Ridership"
+    // minDomain={{ y: 0 }}
+    name="ridership"
     padding={{
       bottom: 50,
-      left: 50,
+      left: 100, // Adjusted to accommodate ticks
       right: 200, // Adjusted to accommodate legend
       top: 50
     }}
@@ -22,7 +22,7 @@ export const MultiYearChart = ({ lineFn }) => (
     width={600}
   >
     <ChartAxis tickValues={months} />
-    <ChartAxis dependentAxis showGrid tickValues={[]} />
+    <ChartAxis dependentAxis showGrid tickValues={getRange(lineFn)} tickFormat={(t) => t.toLocaleString()} />
     <ChartGroup>
       {getYears().map((year) => <ChartLine key={year} data={getLine(year, lineFn)} />)}
     </ChartGroup>
@@ -49,4 +49,17 @@ export const getYears = (): number[] => ridership.reduce(
 export const getLine = (year: number, yFn: (row: Ridership) => number): Row[] => ridership.filter((row: Ridership) => row.Year === year).reduce(
   (prev: Row[], row: Ridership) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
 );
+export const getRange = (nFn: (row: Ridership) => number, base: number = 1000): number[] => {
+  let max: number = 0;
+  let min: number = Number.MAX_SAFE_INTEGER;
+  for (const row of ridership) {
+    const n = nFn(row);
+    max = max < n ? n : max;
+    min = min > n ? n : min;
+  }
+  max = Math.ceil(max / base) * base;
+  min = Math.floor(min / base) * base;
+  const segments = 4;
+  return Array.from({length: segments + 1}, (e, i) => min + (((max - min) / segments) * i));
+}
 
