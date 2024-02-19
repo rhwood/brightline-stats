@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
-import { MultiYearChart, Ridership } from '@app/utils/MultiYearChart';
+import { MultiYearMonthlyChart, Ridership } from '@app/utils/MultiYearChart';
 import { Text, TextContent, TextList, TextListItem, TextVariants } from '@patternfly/react-core/dist/dynamic/components/Text';
 
 const Richmond: React.FunctionComponent = () => (
@@ -13,9 +13,7 @@ const Richmond: React.FunctionComponent = () => (
         The entirety of the Richmond corridor is shared with the Newport News corridor, and all of the Richmod
         corridor except the Richmond Main Street station is shared with the Norfolk corridor.
       </Text>
-    </TextContent>
-    <MultiYearChart lineFn={(row: Ridership): number => row.Richmond} />
-    <TextContent>
+      <MultiYearMonthlyChart lineFn={(row: Ridership): number => row.Richmond} />
       <Text component={TextVariants.h3}>Notes</Text>
       <TextList isPlain>
         <TextListItem>Services only on this corridor was suspended from April 2020 to September 2021 due to the pandemic.</TextListItem>

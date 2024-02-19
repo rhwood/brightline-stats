@@ -3,7 +3,7 @@ import { Chart, ChartAxis, ChartGroup, ChartLine, ChartThemeColor, ChartVoronoiC
 // @ts-expect-error CSV is not typescript
 import ridership from "../../monthly-ridership.csv";
 
-export const MultiYearChart = ({ lineFn }) => (
+export const MultiYearMonthlyChart = ({ lineFn }) => (
   <Chart
     containerComponent={<ChartVoronoiContainer labels={({ datum }) => `${datum.name}: ${datum.y}`} constrainToVisibleArea />}
     legendData={getYears().map(year => { return { name: String(year) }; })}
@@ -11,7 +11,7 @@ export const MultiYearChart = ({ lineFn }) => (
     legendPosition="right"
     height={250}
     // minDomain={{ y: 0 }}
-    name="ridership"
+    name="monthly-ridership"
     padding={{
       bottom: 50,
       left: 100, // Adjusted to accommodate ticks
@@ -24,7 +24,7 @@ export const MultiYearChart = ({ lineFn }) => (
     <ChartAxis tickValues={months} />
     <ChartAxis dependentAxis showGrid tickValues={getRange(lineFn)} tickFormat={(t) => t.toLocaleString()} />
     <ChartGroup>
-      {getYears().map((year) => <ChartLine key={year} data={getLine(year, lineFn)} />)}
+      {getYears().map((year) => <ChartLine key={year} data={getMonthlyLine(year, lineFn)} />)}
     </ChartGroup>
   </Chart>
 );
@@ -46,7 +46,7 @@ export const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', '
 export const getYears = (): number[] => ridership.reduce(
   (prev: number[], row: Ridership) => prev.some(x => x === row.Year) ? prev : [...prev, row.Year], []
 );
-export const getLine = (year: number, yFn: (row: Ridership) => number): Row[] => ridership.filter((row: Ridership) => row.Year === year).reduce(
+export const getMonthlyLine = (year: number, yFn: (row: Ridership) => number): Row[] => ridership.filter((row: Ridership) => row.Year === year).reduce(
   (prev: Row[], row: Ridership) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
 );
 export const getRange = (nFn: (row: Ridership) => number, base: number = 1000): number[] => {
