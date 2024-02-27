@@ -120,7 +120,7 @@ const RouteWithTitleUpdates = ({ component: Component, title, ...rest }: IAppRou
 
 const PageNotFound = ({ title }: { title: string }) => {
   useDocumentTitle(title);
-  return <Route component={NotFound} />;
+  return <Route><NotFound/></Route>;
 };
 
 const flattenedRoutes: IAppRoute[] = routes.reduce(
