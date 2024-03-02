@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Chart, ChartAxis, ChartGroup, ChartLine, ChartThemeColor, ChartVoronoiContainer } from '@patternfly/react-charts';
+import { Chart, ChartAxis, ChartGroup, ChartLine, ChartScatter, ChartThemeColor, ChartVoronoiContainer } from '@patternfly/react-charts';
 // @ts-expect-error CSV is not typescript
 import ridership from "../../monthly-ridership.csv";
 
@@ -24,7 +24,10 @@ export const MultiYearMonthlyChart = ({ lineFn }) => (
     <ChartAxis tickValues={months} />
     <ChartAxis dependentAxis showGrid tickValues={getRange(lineFn)} tickFormat={(t) => t.toLocaleString()} />
     <ChartGroup>
-      {getYears().map((year) => <ChartLine key={year} data={getMonthlyLine(year, lineFn)} />)}
+      {getYears().map((year) => <ChartLine key={'line-' + year} data={getMonthlyLine(year, lineFn)} />)}
+    </ChartGroup>
+    <ChartGroup>
+      {getYears().map((year) => <ChartScatter key={'scatter-' + year} data={getMonthlyLine(year, lineFn)} />)}
     </ChartGroup>
   </Chart>
 );
