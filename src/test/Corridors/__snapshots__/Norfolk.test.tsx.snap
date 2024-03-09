@@ -495,6 +495,28 @@ exports[`Norfolk tests should render Norfolk component 1`] = `
             </g>
           </g>
           <g>
+            <g>
+              <path
+                d="M 154.54545454545456, 125
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 75px; fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); opacity: 1; stroke: var(--pf-v5-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 181.8181818181818, 125
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 75px; fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); opacity: 1; stroke: var(--pf-v5-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+            </g>
+          </g>
+          <g>
             <rect
               height="14"
               role="presentation"
