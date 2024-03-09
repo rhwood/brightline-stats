@@ -5,7 +5,13 @@ import ridership from "../../monthly-ridership.csv";
 
 export const MultiYearMonthlyChart = ({ lineFn }) => (
   <Chart
-    containerComponent={<ChartVoronoiContainer labels={({ datum }) => `${datum.name}: ${datum.y}`} constrainToVisibleArea />}
+    containerComponent={
+      <ChartVoronoiContainer
+        // https://github.com/patternfly/patternfly-react/discussions/10150
+        labels={({ datum }) => datum.childName.includes('line-') ? `${datum.name}: ${datum.y}` : ''}
+        constrainToVisibleArea
+      />
+    }
     legendData={getYears().map(year => { return { name: String(year) }; })}
     legendOrientation="vertical"
     legendPosition="right"
@@ -24,10 +30,10 @@ export const MultiYearMonthlyChart = ({ lineFn }) => (
     <ChartAxis tickValues={months} />
     <ChartAxis dependentAxis showGrid tickValues={getRange(lineFn)} tickFormat={(t) => t.toLocaleString()} />
     <ChartGroup>
-      {getYears().map((year) => <ChartLine key={'line-' + year} data={getMonthlyLine(year, lineFn)} />)}
+      {getYears().map((year) => <ChartLine key={'line-' + year} name={'line-' + year} data={getMonthlyData(year, lineFn)} />)}
     </ChartGroup>
     <ChartGroup>
-      {getYears().map((year) => <ChartScatter key={'scatter-' + year} data={getMonthlyLine(year, lineFn)} />)}
+      {getYears().map((year) => <ChartScatter key={'scatter-' + year} name={'scatter-' + year} data={getMonthlyData(year, lineFn)} />)}
     </ChartGroup>
   </Chart>
 );
@@ -49,7 +55,7 @@ export const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', '
 export const getYears = (): number[] => ridership.reduce(
   (prev: number[], row: Ridership) => prev.some(x => x === row.Year) ? prev : [...prev, row.Year], []
 );
-export const getMonthlyLine = (year: number, yFn: (row: Ridership) => number): Row[] => ridership.filter((row: Ridership) => row.Year === year).reduce(
+export const getMonthlyData = (year: number, yFn: (row: Ridership) => number): Row[] => ridership.filter((row: Ridership) => row.Year === year).reduce(
   (prev: Row[], row: Ridership) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
 );
 export const getRange = (nFn: (row: Ridership) => number, base: number = 1000): number[] => {
