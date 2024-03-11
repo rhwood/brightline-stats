@@ -34,7 +34,7 @@
     "@types/react-router-dom": "5.3.3",
     "@types/victory": "35.0.0",
     "@typescript-eslint/eslint-plugin": "7.1.1",
-    "@typescript-eslint/parser": "7.0.2",
+    "@typescript-eslint/parser": "7.1.1",
     "copy-webpack-plugin": "12.0.2",
     "css-loader": "6.10.0",
     "css-minimizer-webpack-plugin": "6.0.0",
