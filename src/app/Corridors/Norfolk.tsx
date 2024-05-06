@@ -1,15 +1,18 @@
 import * as React from 'react';
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
-import { MultiYearMonthlyChart, Ridership } from '@app/utils/MultiYearChart'
-import { Text, TextContent, TextList, TextListItem, TextVariants } from '@patternfly/react-core/dist/dynamic/components/Text'
+import { MultiYearMonthlyOTPChart, MultiYearMonthlyRidershipChart, VPRAStats } from '@app/utils/MultiYearChart'
+import { TextContent, TextList, TextListItem, TextVariants } from '@patternfly/react-core/dist/dynamic/components/Text'
 
 const Norfolk: React.FunctionComponent = () => (
   <PageSection>
-    <Title headingLevel="h1" size="lg">Norfolk Corridor Ridership</Title>
+    <Title headingLevel="h1" size="lg">Norfolk Corridor</Title>
     <TextContent>
-      <MultiYearMonthlyChart lineFn={(row: Ridership): number => row.Norfolk} />
-      <Text component={TextVariants.h3}>Notes</Text>
+      <Title headingLevel={TextVariants.h3}>Ridership</Title>
+      <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row.Norfolk} />
+      <Title headingLevel={TextVariants.h3}>On Time Performance</Title>
+      <MultiYearMonthlyOTPChart lineFn={(row: VPRAStats): number => row.Norfolk} />
+      <Title headingLevel={TextVariants.h3}>Notes</Title>
       <TextList isPlain>
         <TextListItem>A second roundtrip was added in March 2019.</TextListItem>
         <TextListItem>A third roundtrip was added in July 2022.</TextListItem>

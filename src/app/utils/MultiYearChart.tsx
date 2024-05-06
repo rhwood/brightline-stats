@@ -2,8 +2,18 @@ import * as React from 'react';
 import { Chart, ChartAxis, ChartGroup, ChartLine, ChartScatter, ChartThemeColor, ChartVoronoiContainer } from '@patternfly/react-charts';
 // @ts-expect-error CSV is not typescript
 import ridership from "../../monthly-ridership.csv";
+// @ts-expect-error CSV is not typescript
+import otp from "../../monthly-otp.csv";
 
-export const MultiYearMonthlyChart = ({ lineFn }) => (
+export const MultiYearMonthlyRidershipChart = ({ lineFn }) => (
+  <MultiYearMonthlyChart name="monthly-ridership" source={ridership} lineFn={lineFn} base={1000} />
+)
+
+export const MultiYearMonthlyOTPChart = ({ lineFn }) => (
+  <MultiYearMonthlyChart name="monthly-otp" source={otp} lineFn={lineFn} base={10} />
+)
+
+export const MultiYearMonthlyChart = ({ name, source, lineFn, base }) => (
   <Chart
     containerComponent={
       <ChartVoronoiContainer
@@ -12,12 +22,12 @@ export const MultiYearMonthlyChart = ({ lineFn }) => (
         constrainToVisibleArea
       />
     }
-    legendData={getYears().map(year => { return { name: String(year) }; })}
+    legendData={getYears(source).map(year => { return { name: String(year) }; })}
     legendOrientation="vertical"
     legendPosition="right"
     height={250}
     // minDomain={{ y: 0 }}
-    name="monthly-ridership"
+    name={name}
     padding={{
       bottom: 50,
       left: 100, // Adjusted to accommodate ticks
@@ -28,17 +38,17 @@ export const MultiYearMonthlyChart = ({ lineFn }) => (
     width={600}
   >
     <ChartAxis tickValues={months} />
-    <ChartAxis dependentAxis showGrid tickValues={getRange(lineFn)} tickFormat={(t) => t.toLocaleString()} />
+    <ChartAxis dependentAxis showGrid tickValues={getRange(source, lineFn, base)} tickFormat={(t) => t.toLocaleString()} />
     <ChartGroup>
-      {getYears().map((year) => <ChartLine key={'line-' + year} name={'line-' + year} data={getMonthlyData(year, lineFn)} />)}
+      {getYears(source).map((year) => <ChartLine key={'line-' + year} name={'line-' + year} data={getMonthlyData(source, year, lineFn)} />)}
     </ChartGroup>
     <ChartGroup>
-      {getYears().map((year) => <ChartScatter key={'scatter-' + year} name={'scatter-' + year} data={getMonthlyData(year, lineFn)} />)}
+      {getYears(source).map((year) => <ChartScatter key={'scatter-' + year} name={'scatter-' + year} data={getMonthlyData(source, year, lineFn)} />)}
     </ChartGroup>
   </Chart>
 );
 
-export interface Ridership {
+export interface VPRAStats {
   Year: number;
   Month: number;
   'Newport News': number;
@@ -52,16 +62,16 @@ export interface Row {
   y: number;
 }
 export const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-export const getYears = (): number[] => ridership.reduce(
-  (prev: number[], row: Ridership) => prev.some(x => x === row.Year) ? prev : [...prev, row.Year], []
+export const getYears = (source): number[] => source.reduce(
+  (prev: number[], row: VPRAStats) => prev.some(x => x === row.Year) ? prev : [...prev, row.Year], []
 );
-export const getMonthlyData = (year: number, yFn: (row: Ridership) => number): Row[] => ridership.filter((row: Ridership) => row.Year === year).reduce(
-  (prev: Row[], row: Ridership) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
+export const getMonthlyData = (source, year: number, yFn: (row: VPRAStats) => number): Row[] => source.filter((row: VPRAStats) => row.Year === year).reduce(
+  (prev: Row[], row: VPRAStats) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
 );
-export const getRange = (nFn: (row: Ridership) => number, base: number = 1000): number[] => {
+export const getRange = (source, nFn: (row: VPRAStats) => number, base: number = 1000): number[] => {
   let max: number = 0;
   let min: number = Number.MAX_SAFE_INTEGER;
-  for (const row of ridership) {
+  for (const row of source) {
     const n = nFn(row);
     max = max < n ? n : max;
     min = min > n ? n : min;

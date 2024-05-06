@@ -27,7 +27,7 @@ describe('App tests', () => {
 
     window.dispatchEvent(new Event('resize'));
 
-    expect(screen.queryByRole('link', { name: "Ridership"})).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: "Overall"})).not.toBeInTheDocument();
   });
 
   it('should expand the sidebar on larger viewports', () => {
@@ -35,7 +35,7 @@ describe('App tests', () => {
 
     act(() => window.dispatchEvent(new Event('resize')));
 
-    expect(screen.getByRole('link', { name: "Ridership"})).toBeVisible();
+    expect(screen.getByRole('link', { name: "Overall"})).toBeVisible();
   });
 
   it('should hide the sidebar when clicking the nav-toggle button', async () => {
@@ -46,10 +46,10 @@ describe('App tests', () => {
     act(() => window.dispatchEvent(new Event('resize')));
     const button = screen.getByRole('button', { name: "Global navigation"})
 
-    expect(screen.getByRole('link', { name: "Ridership"})).toBeVisible();
+    expect(screen.getByRole('link', { name: "Overall"})).toBeVisible();
 
     await user.click(button);
 
-    expect(screen.queryByRole('link', { name: "Ridership"})).not.toBeInTheDocument();
+    expect(screen.queryByRole('link', { name: "Overall"})).not.toBeInTheDocument();
   });
 });
