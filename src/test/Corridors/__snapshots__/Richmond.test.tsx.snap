@@ -1039,7 +1039,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  70
+                  70%
                 </tspan>
               </text>
             </g>
@@ -1080,7 +1080,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  72.5
+                  72.5%
                 </tspan>
               </text>
             </g>
@@ -1121,7 +1121,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  75
+                  75%
                 </tspan>
               </text>
             </g>
@@ -1162,7 +1162,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  77.5
+                  77.5%
                 </tspan>
               </text>
             </g>
@@ -1203,7 +1203,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  80
+                  80%
                 </tspan>
               </text>
             </g>

@@ -1030,7 +1030,7 @@ exports[`Norfolk tests should render Norfolk component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  80
+                  80%
                 </tspan>
               </text>
             </g>
