@@ -6,19 +6,19 @@ import ridership from "../../monthly-ridership.csv";
 import otp from "../../monthly-otp.csv";
 
 export const MultiYearMonthlyRidershipChart = ({ lineFn }) => (
-  <MultiYearMonthlyChart name="monthly-ridership" source={ridership} lineFn={lineFn} base={1000} />
+  <MultiYearMonthlyChart name="monthly-ridership" source={ridership} lineFn={lineFn} />
 )
 
 export const MultiYearMonthlyOTPChart = ({ lineFn }) => (
-  <MultiYearMonthlyChart name="monthly-otp" source={otp} lineFn={lineFn} base={10} />
+  <MultiYearMonthlyChart name="monthly-otp" source={otp} lineFn={lineFn} base={10} isPercentage={true} />
 )
 
-export const MultiYearMonthlyChart = ({ name, source, lineFn, base }) => (
+export const MultiYearMonthlyChart = ({ name, source, lineFn, base = 1000, isPercentage = false }) => (
   <Chart
     containerComponent={
       <ChartVoronoiContainer
         // https://github.com/patternfly/patternfly-react/discussions/10150
-        labels={({ datum }) => datum.childName.includes('line-') ? `${datum.name}: ${datum.y}` : ''}
+        labels={({ datum }) => datum.childName.includes('line-') ? `${datum.name}: ` + (isPercentage ? `${datum.y.toLocaleString(undefined, { maximumFractionDigits: 2, minimumFractionDigits: 2 })}%`: `${datum.y.toLocaleString()}`) : ''}
         constrainToVisibleArea
       />
     }
@@ -38,7 +38,7 @@ export const MultiYearMonthlyChart = ({ name, source, lineFn, base }) => (
     width={600}
   >
     <ChartAxis tickValues={months} />
-    <ChartAxis dependentAxis showGrid tickValues={getRange(source, lineFn, base)} tickFormat={(t) => t.toLocaleString()} />
+    <ChartAxis dependentAxis showGrid tickValues={getRange(source, lineFn, base)} tickFormat={(t) => t.toLocaleString() + (isPercentage ? '%' : '')} />
     <ChartGroup>
       {getYears(source).map((year) => <ChartLine key={'line-' + year} name={'line-' + year} data={getMonthlyData(source, year, lineFn)} />)}
     </ChartGroup>
