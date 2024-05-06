@@ -35,9 +35,9 @@ const routes: AppRouteConfig[] = [
   {
     component: Dashboard,
     exact: true,
-    label: 'Ridership',
+    label: 'Overall',
     path: BASE_PATH,
-    title: 'Amtrak Virginia Ridership | Overall Ridership',
+    title: 'Amtrak Virginia Ridership | Overall',
   },
   {
     label: 'Corridors',

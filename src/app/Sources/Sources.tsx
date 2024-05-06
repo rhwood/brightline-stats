@@ -25,16 +25,18 @@ let Sources: React.FunctionComponent<ISourcesProps> = () => (
       <EmptyStateBody>
         <TextContent>
           <Text component="p">
-            The data for this visualizer is sourced from the Virgina Passenger Rail Authority, which periodically provides updated statistics.
+            The data for this visualizer is sourced from the Virgina Passenger Rail Authority, which periodically provides updated ridership and on time performance (OTP) statistics.
           </Text>
           <Text component="p">
-            VPRA publishes this data monthly as PDF reports, one report per calendar year. The data from the PDF reports are copied by hand into a CSV file which is used to produce the graphs in this visualizer.
+            VPRA publishes this data monthly as PDF reports, one report per calendar year. The data from these PDF reports are copied by hand into a CSV file which is used to produce the graphs in this visualizer.
           </Text>
         </TextContent>
       </EmptyStateBody><EmptyStateFooter>
-      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-ridership.csv" variant="primary">CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-ridership.csv" variant="primary">Ridership CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-otp.csv" variant="primary">OTP CSV Data</Button>
       <EmptyStateActions>
         <Button component="a" href="https://vapassengerrailauthority.org/resources/ridership-reports/" variant="link">Ridership Reports</Button>
+        <Button component="a" href="https://vapassengerrailauthority.org/resources/resources-otp-reports/" variant="link">OTP Reports</Button>
         <Button component="a" href="https://vapassengerrailauthority.org" variant="link">VPRA</Button>
       </EmptyStateActions>
     </EmptyStateFooter></EmptyState>
