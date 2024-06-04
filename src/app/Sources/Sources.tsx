@@ -37,7 +37,7 @@ let Sources: React.FunctionComponent<ISourcesProps> = () => (
       <EmptyStateActions>
         <Button component="a" href="https://vapassengerrailauthority.org/resources/ridership-reports/" variant="link">Ridership Reports</Button>
         <Button component="a" href="https://vapassengerrailauthority.org/resources/resources-otp-reports/" variant="link">OTP Reports</Button>
-        <Button component="a" href="https://vapassengerrailauthority.org/about/executive-directors-reports/" variant="link">Executive Director's Reports</Button>
+        <Button component="a" href="https://vapassengerrailauthority.org/about/executive-directors-reports/" variant="link">Executive Director&apos;s Reports</Button>
         <Button component="a" href="https://vapassengerrailauthority.org" variant="link">VPRA</Button>
       </EmptyStateActions>
     </EmptyStateFooter></EmptyState>
