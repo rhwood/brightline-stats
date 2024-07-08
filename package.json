@@ -56,7 +56,7 @@
     "react-axe": "3.5.4",
     "react-router-dom": "5.3.4",
     "regenerator-runtime": "0.14.1",
-    "rimraf": "5.0.7",
+    "rimraf": "5.0.8",
     "sirv-cli": "2.0.2",
     "style-loader": "4.0.0",
     "svg-url-loader": "8.0.0",
