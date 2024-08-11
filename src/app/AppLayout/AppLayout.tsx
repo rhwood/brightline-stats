@@ -81,7 +81,9 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
     <SkipToContent onClick={(event) => {
       event.preventDefault();
       const primaryContentContainer = document.getElementById(pageId);
-      primaryContentContainer && primaryContentContainer.focus();
+      if (primaryContentContainer !== null) {
+        primaryContentContainer.focus();
+      }
     }} href={`#${pageId}`}>
       Skip to Content
     </SkipToContent>
