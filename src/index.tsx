@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from '@app/index';
 
+// import for UX accessibility testing
 if (process.env.NODE_ENV !== "production") {
   const config = {
     rules: [
@@ -11,7 +12,7 @@ if (process.env.NODE_ENV !== "production") {
       }
     ]
   };
-  // eslint-disable-next-line @typescript-eslint/no-var-requires, no-undef
+  // eslint-disable-next-line @typescript-eslint/no-require-imports, @typescript-eslint/no-var-requires, no-undef
   const axe = require("react-axe");
   axe(React, ReactDOM, 1000, config);
 }
