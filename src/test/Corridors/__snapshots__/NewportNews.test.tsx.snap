@@ -31,7 +31,7 @@ exports[`NewportNews tests should render NewportNews component 1`] = `
         <svg
           height="250"
           role="img"
-          style="pointer-events: all; width: 100%; height: 100%;"
+          style="width: 100%; height: 100%; pointer-events: all;"
           viewBox="0 0 600 250"
           width="600"
         >
@@ -565,11 +565,11 @@ exports[`NewportNews tests should render NewportNews component 1`] = `
           </g>
         </svg>
         <div
-          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+          style="width: 100%; height: 100%; z-index: 99; position: absolute; top: 0px; left: 0px;"
         >
           <svg
             height="250"
-            style="overflow: visible; width: 100%; height: 100%;"
+            style="width: 100%; height: 100%; overflow: visible;"
             viewBox="0 0 600 250"
             width="600"
           />
@@ -590,7 +590,7 @@ exports[`NewportNews tests should render NewportNews component 1`] = `
         <svg
           height="250"
           role="img"
-          style="pointer-events: all; width: 100%; height: 100%;"
+          style="width: 100%; height: 100%; pointer-events: all;"
           viewBox="0 0 600 250"
           width="600"
         >
@@ -1124,11 +1124,11 @@ exports[`NewportNews tests should render NewportNews component 1`] = `
           </g>
         </svg>
         <div
-          style="z-index: 99; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"
+          style="width: 100%; height: 100%; z-index: 99; position: absolute; top: 0px; left: 0px;"
         >
           <svg
             height="250"
-            style="overflow: visible; width: 100%; height: 100%;"
+            style="width: 100%; height: 100%; overflow: visible;"
             viewBox="0 0 600 250"
             width="600"
           />
