@@ -6,12 +6,10 @@ import {
   EmptyStateActions,
   EmptyStateBody,
   EmptyStateFooter,
-  EmptyStateHeader,
-  EmptyStateIcon,
   EmptyStateVariant
 } from '@patternfly/react-core/dist/dynamic/components/EmptyState'
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
-import { Text, TextContent } from '@patternfly/react-core/dist/dynamic/components/Text'
+import { Content } from '@patternfly/react-core/dist/dynamic/components/Content'
 
 export interface ISupportProps {
   sampleProp?: string;
@@ -19,23 +17,22 @@ export interface ISupportProps {
 
 // eslint-disable-next-line prefer-const
 let Support: React.FunctionComponent<ISupportProps> = () => (
-  <PageSection>
-    <EmptyState variant={EmptyStateVariant.full}>
-      <EmptyStateHeader titleText="Support" icon={<EmptyStateIcon icon={HelpIcon} />} headingLevel="h1" />
+  <PageSection hasBodyWrapper={false}>
+    <EmptyState  headingLevel="h1" icon={HelpIcon}  titleText="Support" variant={EmptyStateVariant.full}>
       <EmptyStateBody>
-        <TextContent>
-          <Text component="p">
+        <Content>
+          <Content component="p">
             This site is not affiliated with Amtrak or the Virginia Passenger Rail Authority.
-          </Text>
-          <Text component="p">
+          </Content>
+          <Content component="p">
             This site was built as much to learn and practice the underlying techniques as to
             provide a visualization for publicly provided data available elsewhere. Please report
             any issues on GitHub.
-          </Text>
-          <Text component="p">
+          </Content>
+          <Content component="p">
             Built with ❤️ and ☕️ in Herndon, Virginia.
-          </Text>
-        </TextContent>
+          </Content>
+        </Content>
       </EmptyStateBody><EmptyStateFooter>
       <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/issues" variant="primary">GitHub Issues</Button>
       <EmptyStateActions>
