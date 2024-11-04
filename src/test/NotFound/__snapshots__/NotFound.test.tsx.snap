@@ -3,19 +3,19 @@
 exports[`NotFound tests should render NotFound component 1`] = `
 <DocumentFragment>
   <section
-    class="pf-v5-c-page__main-section"
+    class="pf-v6-c-page__main-section"
   >
     <div
-      class="pf-v5-c-empty-state"
+      class="pf-v6-c-empty-state"
     >
       <div
-        class="pf-v5-c-empty-state__content"
+        class="pf-v6-c-empty-state__content"
       >
         <div
-          class="pf-v5-c-empty-state__header"
+          class="pf-v6-c-empty-state__header"
         >
           <div
-            class="pf-v5-c-empty-state__icon"
+            class="pf-v6-c-empty-state__icon"
           >
             <svg
               aria-hidden="true"
@@ -32,32 +32,36 @@ exports[`NotFound tests should render NotFound component 1`] = `
             </svg>
           </div>
           <div
-            class="pf-v5-c-empty-state__title"
+            class="pf-v6-c-empty-state__title"
           >
             <h1
-              class="pf-v5-c-empty-state__title-text"
+              class="pf-v6-c-empty-state__title-text"
             >
               404 Page not found
             </h1>
           </div>
         </div>
         <div
-          class="pf-v5-c-empty-state__body"
+          class="pf-v6-c-empty-state__body"
         >
           We didn't find a page that matches the address you navigated to.
         </div>
         <div
-          class="pf-v5-c-empty-state__footer"
+          class="pf-v6-c-empty-state__footer"
         >
           <button
             aria-disabled="false"
-            class="pf-v5-c-button pf-m-primary"
+            class="pf-v6-c-button pf-m-primary"
             data-ouia-component-id="OUIA-Generated-Button-primary-1"
-            data-ouia-component-type="PF5/Button"
+            data-ouia-component-type="PF6/Button"
             data-ouia-safe="true"
             type="button"
           >
-            Take me home
+            <span
+              class="pf-v6-c-button__text"
+            >
+              Take me home
+            </span>
           </button>
         </div>
       </div>

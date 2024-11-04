@@ -6,12 +6,10 @@ import {
   EmptyStateActions,
   EmptyStateBody,
   EmptyStateFooter,
-  EmptyStateHeader,
-  EmptyStateIcon,
   EmptyStateVariant
 } from '@patternfly/react-core/dist/dynamic/components/EmptyState'
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
-import { Text, TextContent } from '@patternfly/react-core/dist/dynamic/components/Text'
+import { Content } from '@patternfly/react-core/dist/dynamic/components/Content'
 
 export interface ISourcesProps {
   sampleProp?: string;
@@ -19,18 +17,17 @@ export interface ISourcesProps {
 
 // eslint-disable-next-line prefer-const
 let Sources: React.FunctionComponent<ISourcesProps> = () => (
-  <PageSection>
-    <EmptyState variant={EmptyStateVariant.full}>
-      <EmptyStateHeader titleText="Sources" icon={<EmptyStateIcon icon={DataSourceIcon} />} headingLevel="h1" />
+  <PageSection hasBodyWrapper={false}>
+    <EmptyState  headingLevel="h1" icon={DataSourceIcon}  titleText="Sources" variant={EmptyStateVariant.full}>
       <EmptyStateBody>
-        <TextContent>
-          <Text component="p">
+        <Content>
+          <Content component="p">
             The data for this visualizer is sourced from the Virgina Passenger Rail Authority, which periodically provides updated ridership and on time performance (OTP) statistics.
-          </Text>
-          <Text component="p">
+          </Content>
+          <Content component="p">
             VPRA publishes this data monthly as PDF reports, one report per calendar year. The data from these PDF reports are copied by hand into a CSV file which is used to produce the graphs in this visualizer.
-          </Text>
-        </TextContent>
+          </Content>
+        </Content>
       </EmptyStateBody><EmptyStateFooter>
       <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-ridership.csv" variant="primary">Ridership CSV Data</Button>
       <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-otp.csv" variant="primary">OTP CSV Data</Button>

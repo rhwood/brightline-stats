@@ -5,6 +5,7 @@ import { Button } from '@patternfly/react-core/dist/dynamic/components/Button'
 import {
   Masthead,
   MastheadBrand,
+  MastheadLogo,
   MastheadMain,
   MastheadToggle
 } from '@patternfly/react-core/dist/dynamic/components/Masthead'
@@ -23,15 +24,13 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   const [sidebarOpen, setSidebarOpen] = React.useState(true);
   const Header = (
     <Masthead>
-      <MastheadToggle>
-        <Button variant="plain" onClick={() => setSidebarOpen(!sidebarOpen)} aria-label="Global navigation">
-          <BarsIcon />
-        </Button>
+      
+      <MastheadMain><MastheadToggle>
+        <Button icon={<BarsIcon />} variant="plain" onClick={() => setSidebarOpen(!sidebarOpen)} aria-label="Global navigation" />
       </MastheadToggle>
-      <MastheadMain>
-        <MastheadBrand>
+        <MastheadBrand data-codemods><MastheadLogo data-codemods>
           <Brand src={logo} alt="Amtrak Virginia Ridership" heights={{ default: '36px' }} />
-        </MastheadBrand>
+        </MastheadLogo></MastheadBrand>
       </MastheadMain>
     </Masthead>
   );
@@ -58,7 +57,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   );
 
   const Navigation = (
-    <Nav id="nav-primary-simple" theme="dark">
+    <Nav id="nav-primary-simple" >
       <NavList id="nav-list-simple">
         {routes.map(
           (route, idx) => route.label && (!route.routes ? renderNavItem(route, idx) : renderNavGroup(route, idx))
@@ -68,7 +67,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   );
 
   const Sidebar = (
-    <PageSidebar theme="dark" >
+    <PageSidebar  >
       <PageSidebarBody>
         {Navigation}
       </PageSidebarBody>
@@ -91,7 +90,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
   return (
     <Page
       mainContainerId={pageId}
-      header={Header}
+      masthead={Header}
       sidebar={sidebarOpen && Sidebar}
       skipToContent={PageSkipToContent}>
       {children}
