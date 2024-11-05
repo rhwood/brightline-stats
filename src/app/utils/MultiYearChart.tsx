@@ -1,5 +1,13 @@
 import * as React from 'react';
-import { Chart, ChartAxis, ChartGroup, ChartLine, ChartScatter, ChartThemeColor, ChartVoronoiContainer } from '@patternfly/react-charts';
+import {
+	Chart,
+	ChartAxis,
+	ChartGroup,
+	ChartLine,
+	ChartScatter,
+	ChartThemeColor,
+	ChartVoronoiContainer
+} from '@patternfly/react-charts/victory';
 // @ts-expect-error CSV is not typescript
 import ridership from "../../monthly-ridership.csv";
 // @ts-expect-error CSV is not typescript
