@@ -38,7 +38,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
         Ridership
       </h3>
       <div
-        class="pf-v5-c-chart"
+        class="pf-v6-c-chart"
         style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;"
       >
         <svg
@@ -54,7 +54,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="400"
@@ -67,7 +67,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="100"
@@ -84,7 +84,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="100"
                 >
@@ -98,7 +98,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="127.27272727272728"
                 x2="127.27272727272728"
@@ -115,7 +115,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="127.27272727272728"
                 >
@@ -129,7 +129,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="154.54545454545456"
                 x2="154.54545454545456"
@@ -146,7 +146,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="154.54545454545456"
                 >
@@ -160,7 +160,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="181.8181818181818"
                 x2="181.8181818181818"
@@ -177,7 +177,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="181.8181818181818"
                 >
@@ -191,7 +191,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="209.0909090909091"
                 x2="209.0909090909091"
@@ -208,7 +208,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="209.0909090909091"
                 >
@@ -222,7 +222,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="236.36363636363635"
                 x2="236.36363636363635"
@@ -239,7 +239,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="236.36363636363635"
                 >
@@ -253,7 +253,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="263.6363636363636"
                 x2="263.6363636363636"
@@ -270,7 +270,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="263.6363636363636"
                 >
@@ -284,7 +284,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="290.9090909090909"
                 x2="290.9090909090909"
@@ -301,7 +301,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="290.9090909090909"
                 >
@@ -315,7 +315,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="318.1818181818182"
                 x2="318.1818181818182"
@@ -332,7 +332,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="318.1818181818182"
                 >
@@ -346,7 +346,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="345.4545454545455"
                 x2="345.4545454545455"
@@ -363,7 +363,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="345.4545454545455"
                 >
@@ -377,7 +377,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="372.72727272727275"
                 x2="372.72727272727275"
@@ -394,7 +394,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="372.72727272727275"
                 >
@@ -408,7 +408,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="400"
                 x2="400"
@@ -425,7 +425,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="400"
                 >
@@ -440,7 +440,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="100"
@@ -453,7 +453,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -463,7 +463,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -480,7 +480,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: end;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                   text-anchor="end"
                   x="85"
                 >
@@ -511,7 +511,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 d="M154.54545454545456,125L181.8181818181818,125"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
@@ -524,7 +524,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); opacity: 1; stroke: var(--pf-v5-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
               <path
                 d="M 181.8181818181818, 125
@@ -533,7 +533,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); opacity: 1; stroke: var(--pf-v5-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
@@ -556,7 +556,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c);"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
             <text
               direction="inherit"
@@ -568,7 +568,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <tspan
                 dx="0"
                 dy="0"
-                style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                 text-anchor="start"
                 x="446.8"
               >
@@ -597,7 +597,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
         On Time Performance
       </h3>
       <div
-        class="pf-v5-c-chart"
+        class="pf-v6-c-chart"
         style="height: 100%; width: 100%; user-select: none; pointer-events: none; position: relative;"
       >
         <svg
@@ -613,7 +613,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="400"
@@ -626,7 +626,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="100"
@@ -643,7 +643,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="100"
                 >
@@ -657,7 +657,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="127.27272727272728"
                 x2="127.27272727272728"
@@ -674,7 +674,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="127.27272727272728"
                 >
@@ -688,7 +688,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="154.54545454545456"
                 x2="154.54545454545456"
@@ -705,7 +705,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="154.54545454545456"
                 >
@@ -719,7 +719,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="181.8181818181818"
                 x2="181.8181818181818"
@@ -736,7 +736,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="181.8181818181818"
                 >
@@ -750,7 +750,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="209.0909090909091"
                 x2="209.0909090909091"
@@ -767,7 +767,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="209.0909090909091"
                 >
@@ -781,7 +781,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="236.36363636363635"
                 x2="236.36363636363635"
@@ -798,7 +798,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="236.36363636363635"
                 >
@@ -812,7 +812,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="263.6363636363636"
                 x2="263.6363636363636"
@@ -829,7 +829,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="263.6363636363636"
                 >
@@ -843,7 +843,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="290.9090909090909"
                 x2="290.9090909090909"
@@ -860,7 +860,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="290.9090909090909"
                 >
@@ -874,7 +874,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="318.1818181818182"
                 x2="318.1818181818182"
@@ -891,7 +891,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="318.1818181818182"
                 >
@@ -905,7 +905,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="345.4545454545455"
                 x2="345.4545454545455"
@@ -922,7 +922,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="345.4545454545455"
                 >
@@ -936,7 +936,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="372.72727272727275"
                 x2="372.72727272727275"
@@ -953,7 +953,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="372.72727272727275"
                 >
@@ -967,7 +967,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="400"
                 x2="400"
@@ -984,7 +984,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: middle;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                   text-anchor="middle"
                   x="400"
                 >
@@ -999,7 +999,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v5-chart-axis--axis--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="100"
@@ -1012,7 +1012,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1022,7 +1022,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1039,7 +1039,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: end;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                   text-anchor="end"
                   x="85"
                 >
@@ -1053,7 +1053,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1063,7 +1063,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1080,7 +1080,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: end;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                   text-anchor="end"
                   x="85"
                 >
@@ -1094,7 +1094,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1104,7 +1104,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1121,7 +1121,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: end;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                   text-anchor="end"
                   x="85"
                 >
@@ -1135,7 +1135,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1145,7 +1145,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1162,7 +1162,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: end;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                   text-anchor="end"
                   x="85"
                 >
@@ -1176,7 +1176,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--grid--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1186,7 +1186,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v5-chart-axis--tick--stroke--Color, #d2d2d2); fill: var(--pf-v5-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1203,7 +1203,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 <tspan
                   dx="0"
                   dy="0"
-                  style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-axis--tick-label--Fill, #4f5255); text-anchor: end;"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                   text-anchor="end"
                   x="85"
                 >
@@ -1234,7 +1234,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
                 d="M154.54545454545456,125L181.8181818181818,125"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
@@ -1247,7 +1247,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); opacity: 1; stroke: var(--pf-v5-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
               <path
                 d="M 181.8181818181818, 125
@@ -1256,7 +1256,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c); opacity: 1; stroke: var(--pf-v5-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
@@ -1279,7 +1279,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v5-chart-theme--multi-color-unordered--ColorScale--100, #06c);"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
             <text
               direction="inherit"
@@ -1291,7 +1291,7 @@ exports[`Richmond tests should render Richmond component 1`] = `
               <tspan
                 dx="0"
                 dy="0"
-                style="font-family: "RedHatText",helvetica,arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v5-chart-global--label--stroke, transparent); fill: var(--pf-v5-chart-global--label--Fill, #151515);"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                 text-anchor="start"
                 x="446.8"
               >
