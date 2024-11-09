@@ -9,8 +9,8 @@ const Dashboard: React.FunctionComponent = () => (
     <Title headingLevel="h1" size="lg">Overall</Title>
     <Content>
       <Content component={ContentVariants.p}>
-        The Virginia Rail Passenger Authority (VRPA) sponsors eight Amtrak trains on four corridors.
-        This site visualizes the ridership data for those trains as provided monthly by the VRPA.
+        Brightline operates passenger trains on a single route in Florida.
+        This site visualizes the ridership and revenue data for those trains as provided monthly by Brightline.
       </Content>
       <Title headingLevel="h3">Ridership</Title>
       <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row['Newport News'] + row.Norfolk + row.Richmond + row.Roanoke} />

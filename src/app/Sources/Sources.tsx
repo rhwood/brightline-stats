@@ -29,8 +29,8 @@ let Sources: React.FunctionComponent<ISourcesProps> = () => (
           </Content>
         </Content>
       </EmptyStateBody><EmptyStateFooter>
-      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-ridership.csv" variant="primary">Ridership CSV Data</Button>
-      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-otp.csv" variant="primary">OTP CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-ridership.csv" variant="primary">Ridership CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-otp.csv" variant="primary">OTP CSV Data</Button>
       <EmptyStateActions>
         <Button component="a" href="https://vapassengerrailauthority.org/resources/ridership-reports/" variant="link">Ridership Reports</Button>
         <Button component="a" href="https://vapassengerrailauthority.org/resources/resources-otp-reports/" variant="link">OTP Reports</Button>

@@ -1,17 +1,17 @@
-# Amtrak Virginia Ridership Visualizer
+# Brightline Ridership and Revenue Visualizer
 
-Amtrak Virginia Ridership Visualizer is an open source visualizer for ridership data provided by the Virginia Passenger Rail Authority.
+Brightline Ridership and Revenue Visualizer is an open source visualizer for ridership and revenue data provided by the Brightline.
 
-[![CI](https://github.com/rhwood/amtk-va-ridership/actions/workflows/ci.yaml/badge.svg)](https://github.com/rhwood/amtk-va-ridership/actions/workflows/ci.yaml)
-[![Deploy Site](https://github.com/rhwood/amtk-va-ridership/actions/workflows/deploy.yaml/badge.svg)](https://github.com/rhwood/amtk-va-ridership/actions/workflows/deploy.yaml)
-[![codecov](https://codecov.io/gh/rhwood/amtk-va-ridership/graph/badge.svg?token=nvlk4tlg8M)](https://codecov.io/gh/rhwood/amtk-va-ridership)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/rhwood/amtk-va-ridership/badge)](https://securityscorecards.dev/viewer/?uri=github.com/rhwood/amtk-va-ridership)
+[![CI](https://github.com/rhwood/brightline-stats/actions/workflows/ci.yaml/badge.svg)](https://github.com/rhwood/brightline-stats/actions/workflows/ci.yaml)
+[![Deploy Site](https://github.com/rhwood/brightline-stats/actions/workflows/deploy.yaml/badge.svg)](https://github.com/rhwood/brightline-stats/actions/workflows/deploy.yaml)
+[![codecov](https://codecov.io/gh/rhwood/brightline-stats/graph/badge.svg?token=nvlk4tlg8M)](https://codecov.io/gh/rhwood/brightline-stats)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/rhwood/brightline-stats/badge)](https://securityscorecards.dev/viewer/?uri=github.com/rhwood/brightline-stats)
 
 ## Quick-start
 
 ```bash
-git clone https://github.com/rhwood/amtk-va-ridership
-cd amtk-va-ridership
+git clone https://github.com/rhwood/brightline-stats
+cd brightline-stats
 npm install && npm run start:dev
 ```
 ## Development scripts
