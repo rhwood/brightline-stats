@@ -11,14 +11,20 @@ import {
 // @ts-expect-error CSV is not typescript
 import ridership from "../../monthly-ridership.csv";
 // @ts-expect-error CSV is not typescript
-import otp from "../../monthly-otp.csv";
+import fare from "../../monthly-fare.csv";
+// @ts-expect-error CSV is not typescript
+import revenue from "../../monthly-revenue.csv";
 
 export const MultiYearMonthlyRidershipChart = ({ lineFn }) => (
   <MultiYearMonthlyChart name="monthly-ridership" source={ridership} lineFn={lineFn} />
 )
 
-export const MultiYearMonthlyOTPChart = ({ lineFn }) => (
-  <MultiYearMonthlyChart name="monthly-otp" source={otp} lineFn={lineFn} base={10} isPercentage={true} />
+export const MultiYearMonthlyFareChart = ({ lineFn }) => (
+  <MultiYearMonthlyChart name="monthly-fare" source={fare} lineFn={lineFn} base={10} isPercentage={false} />
+)
+
+export const MultiYearMonthlyRevenueChart = ({ lineFn }) => (
+  <MultiYearMonthlyChart name="monthly-revenue" source={revenue} lineFn={lineFn} base={10} isPercentage={false} />
 )
 
 export const MultiYearMonthlyChart = ({ name, source, lineFn, base = 1000, isPercentage = false }) => (
@@ -56,13 +62,12 @@ export const MultiYearMonthlyChart = ({ name, source, lineFn, base = 1000, isPer
   </Chart>
 );
 
-export interface VPRAStats {
+export interface BrightlineStats {
   Year: number;
   Month: number;
-  'Newport News': number;
-  Norfolk: number;
-  Richmond: number;
-  Roanoke: number;
+  short: number;
+  long: number;
+  ancillary: number;
 }
 export interface Row {
   name: number;
@@ -71,12 +76,12 @@ export interface Row {
 }
 export const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 export const getYears = (source): number[] => source.reduce(
-  (prev: number[], row: VPRAStats) => prev.some(x => x === row.Year) ? prev : [...prev, row.Year], []
+  (prev: number[], row: BrightlineStats) => prev.some(x => x === row.Year) ? prev : [...prev, row.Year], []
 );
-export const getMonthlyData = (source, year: number, yFn: (row: VPRAStats) => number): Row[] => source.filter((row: VPRAStats) => row.Year === year).reduce(
-  (prev: Row[], row: VPRAStats) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
+export const getMonthlyData = (source, year: number, yFn: (row: BrightlineStats) => number): Row[] => source.filter((row: BrightlineStats) => row.Year === year).reduce(
+  (prev: Row[], row: BrightlineStats) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
 );
-export const getRange = (source, nFn: (row: VPRAStats) => number, base: number = 1000): number[] => {
+export const getRange = (source, nFn: (row: BrightlineStats) => number, base: number = 1000): number[] => {
   let max: number = 0;
   let min: number = Number.MAX_SAFE_INTEGER;
   for (const row of source) {

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
-import { MultiYearMonthlyOTPChart, MultiYearMonthlyRidershipChart, VPRAStats } from '@app/utils/MultiYearChart';
+import { BrightlineStats, MultiYearMonthlyRidershipChart } from '@app/utils/MultiYearChart';
 import { Content, ContentVariants } from '@patternfly/react-core/dist/dynamic/components/Content';
 
 const Richmond: React.FunctionComponent = () => (
@@ -14,9 +14,7 @@ const Richmond: React.FunctionComponent = () => (
         corridor except the Richmond Main Street station is shared with the Norfolk corridor.
       </Content>
       <Title headingLevel={ContentVariants.h3}>Ridership</Title>
-      <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row.Richmond} />
-      <Title headingLevel={ContentVariants.h3}>On Time Performance</Title>
-      <MultiYearMonthlyOTPChart lineFn={(row: VPRAStats): number => row.Richmond} />
+      <MultiYearMonthlyRidershipChart lineFn={(row: BrightlineStats): number => row.short} />
       <Title headingLevel={ContentVariants.h3}>Notes</Title>
       <Content component="ul" isPlainList>
         <Content component="li">Services only on this corridor was suspended from April 2020 to September 2021 due to the pandemic.</Content>

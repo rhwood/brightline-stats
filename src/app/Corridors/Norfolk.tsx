@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { PageSection } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
-import { MultiYearMonthlyOTPChart, MultiYearMonthlyRidershipChart, VPRAStats } from '@app/utils/MultiYearChart'
+import { BrightlineStats, MultiYearMonthlyRidershipChart } from '@app/utils/MultiYearChart';
 import { Content, ContentVariants } from '@patternfly/react-core/dist/dynamic/components/Content'
 
 const Norfolk: React.FunctionComponent = () => (
@@ -9,9 +9,7 @@ const Norfolk: React.FunctionComponent = () => (
     <Title headingLevel="h1" size="lg">Norfolk Corridor</Title>
     <Content>
       <Title headingLevel={ContentVariants.h3}>Ridership</Title>
-      <MultiYearMonthlyRidershipChart lineFn={(row: VPRAStats): number => row.Norfolk} />
-      <Title headingLevel={ContentVariants.h3}>On Time Performance</Title>
-      <MultiYearMonthlyOTPChart lineFn={(row: VPRAStats): number => row.Norfolk} />
+      <MultiYearMonthlyRidershipChart lineFn={(row: BrightlineStats): number => row.short} />
       <Title headingLevel={ContentVariants.h3}>Notes</Title>
       <Content component="ul" isPlainList>
         <Content component="li">A second roundtrip was added in March 2019.</Content>
