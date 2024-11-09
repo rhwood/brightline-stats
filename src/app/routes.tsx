@@ -3,10 +3,11 @@ import { Route, RouteComponentProps, Switch, useLocation } from 'react-router-do
 import { Dashboard } from '@app/Dashboard/Dashboard';
 import { Support } from '@app/Support/Support';
 import { Sources } from '@app/Sources/Sources';
-import { NewportNews } from '@app/Corridors/NewportNews';
-import { Norfolk } from '@app/Corridors/Norfolk';
-import { Richmond } from '@app/Corridors/Richmond';
-import { Roanoke } from '@app/Corridors/Roanoke';
+import { Long } from '@app/Trip/Long';
+import { Short } from '@app/Trip/Short';
+import { Ridership } from '@app/Ridership/Ridership';
+import { Fares } from '@app/Fares/Fares';
+import { Revenues } from '@app/Revenues/Revenues';
 import { NotFound } from '@app/NotFound/NotFound';
 import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 
@@ -40,37 +41,44 @@ const routes: AppRouteConfig[] = [
     title: 'Brightline Ridership | Overall',
   },
   {
-    label: 'Corridors',
+    label: 'Trip Length',
     routes: [
       {
-        component: NewportNews,
+        component: Short,
         exact: true,
-        label: 'Newport News',
-        path: BASE_PATH + 'corridors/newport-news',
-        title: 'Brightline Ridership | Newport News'
+        label: 'Short Distance',
+        path: BASE_PATH + 'trip/short',
+        title: 'Brightline Ridership | Short Distance Trips'
       },
       {
-        component: Norfolk,
+        component: Long,
         exact: true,
-        label: 'Norfolk',
-        path: BASE_PATH + 'corridors/norfolk',
-        title: 'Brightline Ridership | Norfolk'
-      },
-      {
-        component: Richmond,
-        exact: true,
-        label: 'Richmond',
-        path: BASE_PATH + 'corridors/richmond',
-        title: 'Brightline Ridership | Richmond'
-      },
-      {
-        component: Roanoke,
-        exact: true,
-        label: 'Roanoke',
-        path: BASE_PATH + 'corridors/roanoke',
-        title: 'Brightline Ridership | Roanoke'
+        label: 'Long Distance',
+        path: BASE_PATH + 'trip/long',
+        title: 'Brightline Ridership | Long Distance Trips'
       }
-    ],
+    ]
+  },
+  {
+    component: Ridership,
+    exact: true,
+    label: 'Ridership',
+    path: BASE_PATH + 'ridership',
+    title: 'Brightline Ridership | Ridership'
+  },
+  {
+    component: Fares,
+    exact: true,
+    label: 'Fares per Passenger',
+    path: BASE_PATH + 'fares',
+    title: 'Brightline Ridership | Fares per Passenger'
+  },
+  {
+    component: Revenues,
+    exact: true,
+    label: 'Revenues',
+    path: BASE_PATH + 'revenues',
+    title: 'Brightline Ridership | Revenues'
   },
   {
     component: Sources,

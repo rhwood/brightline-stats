@@ -30,7 +30,8 @@ let Sources: React.FunctionComponent<ISourcesProps> = () => (
         </Content>
       </EmptyStateBody><EmptyStateFooter>
       <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-ridership.csv" variant="primary">Ridership CSV Data</Button>
-      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-otp.csv" variant="primary">OTP CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-fare.csv" variant="primary">Fares CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-revenue.csv" variant="primary">Revenue CSV Data</Button>
       <EmptyStateActions>
         <Button component="a" href="https://www.gobrightline.com/investor-relations" variant="link">Investor Reports</Button>
         <Button component="a" href="https://www.gobrightline.com" variant="link">Brightline</Button>

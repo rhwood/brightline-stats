@@ -4,7 +4,7 @@ import { Title } from '@patternfly/react-core/dist/dynamic/components/Title'
 import { BrightlineStats, MultiYearMonthlyRidershipChart } from '@app/utils/MultiYearChart';
 import { Content, ContentVariants } from '@patternfly/react-core/dist/dynamic/components/Content'
 
-const NewportNews: React.FunctionComponent = () => (
+const Long: React.FunctionComponent = () => (
   <PageSection hasBodyWrapper={false}>
     <Title headingLevel="h1" size="lg">Newport News Corridor</Title>
     <Content>
@@ -18,4 +18,4 @@ const NewportNews: React.FunctionComponent = () => (
   </PageSection>
 )
 
-export { NewportNews };
+export { Long };
