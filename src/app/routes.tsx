@@ -37,7 +37,7 @@ const routes: AppRouteConfig[] = [
     exact: true,
     label: 'Overall',
     path: BASE_PATH,
-    title: 'Amtrak Virginia Ridership | Overall',
+    title: 'Brightline Ridership | Overall',
   },
   {
     label: 'Corridors',
@@ -47,28 +47,28 @@ const routes: AppRouteConfig[] = [
         exact: true,
         label: 'Newport News',
         path: BASE_PATH + 'corridors/newport-news',
-        title: 'Amtrak Virginia Ridership | Newport News'
+        title: 'Brightline Ridership | Newport News'
       },
       {
         component: Norfolk,
         exact: true,
         label: 'Norfolk',
         path: BASE_PATH + 'corridors/norfolk',
-        title: 'Amtrak Virginia Ridership | Norfolk'
+        title: 'Brightline Ridership | Norfolk'
       },
       {
         component: Richmond,
         exact: true,
         label: 'Richmond',
         path: BASE_PATH + 'corridors/richmond',
-        title: 'Amtrak Virginia Ridership | Richmond'
+        title: 'Brightline Ridership | Richmond'
       },
       {
         component: Roanoke,
         exact: true,
         label: 'Roanoke',
         path: BASE_PATH + 'corridors/roanoke',
-        title: 'Amtrak Virginia Ridership | Roanoke'
+        title: 'Brightline Ridership | Roanoke'
       }
     ],
   },
@@ -77,14 +77,14 @@ const routes: AppRouteConfig[] = [
     exact: true,
     label: 'Sources',
     path: BASE_PATH + 'sources',
-    title: 'Amtrak Virginia Ridership | Sources',
+    title: 'Brightline Ridership | Sources',
   },
   {
     component: Support,
     exact: true,
     label: 'Support',
     path: BASE_PATH + 'support',
-    title: 'Amtrak Virginia Ridership | Support Page',
+    title: 'Brightline Ridership | Support',
   },
 ];
 

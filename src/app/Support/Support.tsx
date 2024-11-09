@@ -36,7 +36,7 @@ let Support: React.FunctionComponent<ISupportProps> = () => (
       </EmptyStateBody><EmptyStateFooter>
       <Button component="a" href="https://github.com/rhwood/brightline-stats/issues" variant="primary">GitHub Issues</Button>
       <EmptyStateActions>
-        <Button component="a" href='https://www.gobrightline.com/virginia' variant='link'>Brightline</Button>
+        <Button component="a" href='https://www.gobrightline.com' variant='link'>Brightline</Button>
         <Button component="a" href="https://en.wikipedia.org/wiki/Brightline" variant="link">Wikipedia</Button>
       </EmptyStateActions>
     </EmptyStateFooter></EmptyState>
