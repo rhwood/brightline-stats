@@ -6,7 +6,7 @@ import { Content, ContentVariants } from '@patternfly/react-core/dist/dynamic/co
 
 const Revenues: React.FunctionComponent = () => (
   <PageSection hasBodyWrapper={false}>
-    <Title headingLevel="h1" size="lg">Overall</Title>
+    <Title headingLevel="h1" size="lg">Revenues</Title>
     <Content>
       <Content component={ContentVariants.p}>
         Brightline operates passenger trains on a single route in Florida.

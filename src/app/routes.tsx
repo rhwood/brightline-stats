@@ -69,9 +69,9 @@ const routes: AppRouteConfig[] = [
   {
     component: Fares,
     exact: true,
-    label: 'Fares per Passenger',
+    label: 'Average Fare per Passenger',
     path: BASE_PATH + 'fares',
-    title: 'Brightline Ridership | Fares per Passenger'
+    title: 'Brightline Ridership | Average Fare per Passenger'
   },
   {
     component: Revenues,

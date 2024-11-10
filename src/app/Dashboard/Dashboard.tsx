@@ -12,11 +12,11 @@ const Dashboard: React.FunctionComponent = () => (
         Brightline operates passenger trains on a single route in Florida.
         This site visualizes the ridership and revenue data for those trains as provided monthly by Brightline.
       </Content>
-      <Title headingLevel="h3">Ridership</Title>
+      <Title headingLevel="h3">Total Ridership</Title>
       <MultiYearMonthlyRidershipChart lineFn={(row: BrightlineStats): number => row.short + row.long} />
       <Title headingLevel="h3">Average Fare per Passenger</Title>
-      <MultiYearMonthlyFareChart lineFn={(row: BrightlineStats): number => (row.short + row.long)} />
-      <Title headingLevel="h3">Revenue (in millions of dollars)</Title>
+      <MultiYearMonthlyFareChart lineFn={(row: BrightlineStats): number => (row.ancillary)} />
+      <Title headingLevel="h3">Total Revenue (in millions of dollars)</Title>
       <MultiYearMonthlyRevenueChart lineFn={(row: BrightlineStats): number => (row.short + row.long + row.ancillary)} />
     </Content>
   </PageSection>
