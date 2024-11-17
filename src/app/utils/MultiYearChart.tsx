@@ -31,6 +31,14 @@ export const RollingMonthlyRidershipChart = ({ lineFn }) => (
   <RollingMonthlyChart name="rolling-ridership" source={ridership} legends={[{name: 'Short Trip', key: 'short'}, {name: 'Long Trip', key: 'long'}]} lineFn={lineFn} />
 )
 
+export const RollingMonthlyFareChart = ({ lineFn }) => (
+  <RollingMonthlyChart name="rolling-fare" source={fare} legends={[{name: 'Short Trip', key: 'short'}, {name: 'Long Trip', key: 'long'}]} lineFn={lineFn}  base={10} labelFormat={LabelFormat.dollar} />
+)
+
+export const RollingMonthlyRevenueChart = ({ lineFn }) => (
+  <RollingMonthlyChart name="rolling-revenue" source={revenue} legends={[{name: 'Short Trip', key: 'short'}, {name: 'Long Trip', key: 'long'}, {name: 'Ancillary', key: 'ancillary'}]} lineFn={lineFn} base={10} labelFormat={LabelFormat.curreny}/>
+)
+
 export const RollingMonthlyChart = ({ name, source, legends, lineFn, base = 1000, labelFormat = LabelFormat.number }) => {
   const legends_: Legend[] = legends // need to just type parameters to this function
   const mostRecentYear: number = getHighestYear(source);
