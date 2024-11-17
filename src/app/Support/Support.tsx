@@ -22,7 +22,7 @@ let Support: React.FunctionComponent<ISupportProps> = () => (
       <EmptyStateBody>
         <Content>
           <Content component="p">
-            This site is not affiliated with Amtrak or the Virginia Passenger Rail Authority.
+            This site is not affiliated with Brightline.
           </Content>
           <Content component="p">
             This site was built as much to learn and practice the underlying techniques as to
@@ -34,11 +34,10 @@ let Support: React.FunctionComponent<ISupportProps> = () => (
           </Content>
         </Content>
       </EmptyStateBody><EmptyStateFooter>
-      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/issues" variant="primary">GitHub Issues</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/issues" variant="primary">GitHub Issues</Button>
       <EmptyStateActions>
-        <Button component="a" href='https://www.amtrak.com/virginia' variant='link'>Amtrak</Button>
-        <Button component="a" href="https://vapassengerrailauthority.org" variant="link">VPRA</Button>
-        <Button component="a" href="https://en.wikipedia.org/wiki/Amtrak_Virginia" variant="link">Wikipedia</Button>
+        <Button component="a" href='https://www.gobrightline.com' variant='link'>Brightline</Button>
+        <Button component="a" href="https://en.wikipedia.org/wiki/Brightline" variant="link">Wikipedia</Button>
       </EmptyStateActions>
     </EmptyStateFooter></EmptyState>
   </PageSection>

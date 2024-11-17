@@ -22,20 +22,19 @@ let Sources: React.FunctionComponent<ISourcesProps> = () => (
       <EmptyStateBody>
         <Content>
           <Content component="p">
-            The data for this visualizer is sourced from the Virgina Passenger Rail Authority, which periodically provides updated ridership and on time performance (OTP) statistics.
+            The data for this visualizer is sourced from Brightline, which periodically provides updated ridership and revenue statistics.
           </Content>
           <Content component="p">
-            VPRA publishes this data monthly as PDF reports, one report per calendar year. The data from these PDF reports are copied by hand into a CSV file which is used to produce the graphs in this visualizer.
+            Brightline publishes this data monthly as PDF reports. The data from these PDF reports are copied by hand into a CSV file which is used to produce the graphs in this visualizer.
           </Content>
         </Content>
       </EmptyStateBody><EmptyStateFooter>
-      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-ridership.csv" variant="primary">Ridership CSV Data</Button>
-      <Button component="a" href="https://github.com/rhwood/amtk-va-ridership/blob/main/src/monthly-otp.csv" variant="primary">OTP CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-ridership.csv" variant="primary">Ridership CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-fare.csv" variant="primary">Fares CSV Data</Button>
+      <Button component="a" href="https://github.com/rhwood/brightline-stats/blob/main/src/monthly-revenue.csv" variant="primary">Revenue CSV Data</Button>
       <EmptyStateActions>
-        <Button component="a" href="https://vapassengerrailauthority.org/resources/ridership-reports/" variant="link">Ridership Reports</Button>
-        <Button component="a" href="https://vapassengerrailauthority.org/resources/resources-otp-reports/" variant="link">OTP Reports</Button>
-        <Button component="a" href="https://vapassengerrailauthority.org/about/executive-directors-reports/" variant="link">Executive Director&apos;s Reports</Button>
-        <Button component="a" href="https://vapassengerrailauthority.org" variant="link">VPRA</Button>
+        <Button component="a" href="https://www.gobrightline.com/investor-relations" variant="link">Investor Reports</Button>
+        <Button component="a" href="https://www.gobrightline.com" variant="link">Brightline</Button>
       </EmptyStateActions>
     </EmptyStateFooter></EmptyState>
   </PageSection>

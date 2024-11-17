@@ -6,4 +6,4 @@ Only the most recent deployment is supported.
 
 ## Reporting a Vulnerability
 
-Report vulnerabilities at https://github.com/rhwood/amtk-va-ridership/issues
+Report vulnerabilities at https://github.com/rhwood/brightline-stats/issues

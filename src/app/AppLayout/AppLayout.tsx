@@ -13,7 +13,7 @@ import { Nav, NavExpandable, NavItem, NavList } from '@patternfly/react-core/dis
 import { Page, PageSidebar, PageSidebarBody } from '@patternfly/react-core/dist/dynamic/components/Page'
 import { SkipToContent } from '@patternfly/react-core/dist/dynamic/components/SkipToContent'
 import { IAppRoute, IAppRouteGroup, routes } from '@app/routes';
-import logo from '@app/bgimages/amtk-va-ridership.svg';
+import logo from '@app/bgimages/brightline-stats.svg';
 import { BarsIcon } from '@patternfly/react-icons/dist/dynamic/icons/bars-icon'
 
 interface IAppLayout {
@@ -29,7 +29,7 @@ const AppLayout: React.FunctionComponent<IAppLayout> = ({ children }) => {
         <Button icon={<BarsIcon />} variant="plain" onClick={() => setSidebarOpen(!sidebarOpen)} aria-label="Global navigation" />
       </MastheadToggle>
         <MastheadBrand data-codemods><MastheadLogo data-codemods>
-          <Brand src={logo} alt="Amtrak Virginia Ridership" heights={{ default: '36px' }} />
+          <Brand src={logo} alt="Brightline Statistics" heights={{ default: '36px' }} />
         </MastheadLogo></MastheadBrand>
       </MastheadMain>
     </Masthead>
