@@ -69,7 +69,7 @@ export const RollingMonthlyChart = ({ name, source, legends, lineFn, base = 1000
     for (const fi in yFns) {
       const yFn = yFns[fi]
       const shiftMonth = stat.Month + minMonth - (12 - mostRecentMonth)
-      const row: Row = {name: stat.Year, x:(stat.Month > minMonth - 1 ? shiftMonth : shiftMonth + 12), y: yFn(stat)}
+      const row: Row = {name: legends_[fi].name, x:(stat.Month > minMonth - 1 ? shiftMonth : shiftMonth + 12), y: yFn(stat)}
       if (row.x > 12) {
         fakingIt = true
       }
@@ -170,7 +170,7 @@ export interface BrightlineStats {
   ancillary: number;
 }
 export interface Row {
-  name: number;
+  name: string;
   x: number;
   y: number;
 }
