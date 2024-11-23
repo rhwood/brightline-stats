@@ -55,12 +55,11 @@ export const RollingMonthlyChart = ({ name, source, legends, lineFn, base = 1000
   })(source, mostRecentYear, mostRecentMonth)
   const minMonth = mostRecentMonth - rollingSource.length + 1
   if (rollingSource.length < 12) {
-    for (let i = 12 - rollingSource.length ; i > 0 ; i--) {
-      if (i - minMonth < 0) {
-        rollingSource.unshift({Year: mostRecentYear - 1, Month: i + 13 - minMonth, short: 0, long: 0, ancillary: 0})
-      } else {
-        rollingSource.unshift({Year: mostRecentYear, Month: i + 1 - minMonth, short: 0, long: 0, ancillary: 0})
-      }
+    for (let i = minMonth - 1 ; i > 0 ; i--) {
+      rollingSource.unshift({Year: mostRecentYear, Month: i, short: 0, long: 0, ancillary: 0})
+    }
+    for (let i = 12 ; i > mostRecentMonth ; i--) {
+      rollingSource.unshift({Year: mostRecentYear - 1, Month: i, short: 0, long: 0, ancillary: 0})
     }
   }
   const yFns: {(source: BrightlineStats): number;}[] = lineFn // need to just type parameters to this function
@@ -69,7 +68,8 @@ export const RollingMonthlyChart = ({ name, source, legends, lineFn, base = 1000
   rollingSource.forEach((stat, ri) => {
     for (const fi in yFns) {
       const yFn = yFns[fi]
-      const shiftMonth = stat.Month + minMonth - 1
+      const shiftMonth = stat.Month + minMonth - (12 - mostRecentMonth)
+      console.log("Months: stat:" + stat.Month + " min: " + minMonth + " shift: " + shiftMonth);
       const row: Row = {name: stat.Year, x:(stat.Month > minMonth - 1 ? shiftMonth : shiftMonth + 12), y: yFn(stat)}
       if (row.x > 12) {
         fakingIt = true
