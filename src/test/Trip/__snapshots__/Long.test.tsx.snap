@@ -516,7 +516,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  750
+                  36,000
                 </tspan>
               </text>
             </g>
@@ -557,7 +557,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  1,500
+                  72,000
                 </tspan>
               </text>
             </g>
@@ -598,7 +598,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  2,250
+                  108,000
                 </tspan>
               </text>
             </g>
@@ -639,7 +639,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  3,000
+                  144,000
                 </tspan>
               </text>
             </g>
@@ -663,39 +663,137 @@ exports[`Long trip tests should render long trip component 1`] = `
                 </clippath>
               </defs>
               <path
-                d="M181.8181818181818,50Z"
+                d="M318.1818181818182,181.68958333333333L345.4545454545455,116.99375"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
+              />
+            </g>
+            <g
+              clip-path="url(#victory-clip-3)"
+              style="height: 100%; width: 100%; user-select: none;"
+            >
+              <defs>
+                <clippath
+                  id="victory-clip-3"
+                >
+                  <rect
+                    height="150"
+                    vector-effect="non-scaling-stroke"
+                    width="300"
+                    x="100"
+                    y="50"
+                  />
+                </clippath>
+              </defs>
+              <path
+                d="M181.8181818181818,75.64583333333333L209.0909090909091,58.418749999999996L236.36363636363635,54.88854166666667L263.6363636363636,50.53333333333333L290.9090909090909,57.75520833333333L318.1818181818182,64.32395833333334L345.4545454545455,60.186458333333334"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
           <g>
             <g>
               <path
-                d="M 181.8181818181818, 50
+                d="M 318.1818181818182, 181.68958333333333
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 116.99375
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+            </g>
+            <g>
+              <path
+                d="M 181.8181818181818, 75.64583333333333
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 209.0909090909091, 58.418749999999996
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 54.88854166666667
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 50.53333333333333
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 57.75520833333333
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 64.32395833333334
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 60.186458333333334
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
           <g>
             <rect
-              height="14"
+              height="28"
               role="presentation"
               shape-rendering="auto"
               style="fill: none;"
               vector-effect="non-scaling-stroke"
               width="39.6"
               x="416"
-              y="120"
+              y="113"
             />
             <path
-              d="M 425.128, 138.872
+              d="M 425.128, 131.872
       h9.744000000000028
       v-9.744000000000028
       h-9.744000000000028
@@ -704,12 +802,22 @@ exports[`Long trip tests should render long trip component 1`] = `
               shape-rendering="auto"
               style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
+            <path
+              d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+            />
             <text
               direction="inherit"
               dx="0"
               id="monthly-ridership-ChartLegend-ChartLabel-0"
               x="446.8"
-              y="138.97"
+              y="131.97"
             >
               <tspan
                 dx="0"
@@ -718,7 +826,24 @@ exports[`Long trip tests should render long trip component 1`] = `
                 text-anchor="start"
                 x="446.8"
               >
-                1900
+                2023
+              </tspan>
+            </text>
+            <text
+              direction="inherit"
+              dx="0"
+              id="monthly-ridership-ChartLegend-ChartLabel-1"
+              x="446.8"
+              y="145.97"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                text-anchor="start"
+                x="446.8"
+              >
+                2024
               </tspan>
             </text>
           </g>
@@ -1230,7 +1355,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $7.50
+                  $25.00
                 </tspan>
               </text>
             </g>
@@ -1271,7 +1396,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $15.00
+                  $50.00
                 </tspan>
               </text>
             </g>
@@ -1312,7 +1437,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $22.50
+                  $75.00
                 </tspan>
               </text>
             </g>
@@ -1353,19 +1478,19 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $30.00
+                  $100.00
                 </tspan>
               </text>
             </g>
           </g>
           <g>
             <g
-              clip-path="url(#victory-clip-4)"
+              clip-path="url(#victory-clip-5)"
               style="height: 100%; width: 100%; user-select: none;"
             >
               <defs>
                 <clippath
-                  id="victory-clip-4"
+                  id="victory-clip-5"
                 >
                   <rect
                     height="150"
@@ -1377,39 +1502,137 @@ exports[`Long trip tests should render long trip component 1`] = `
                 </clippath>
               </defs>
               <path
-                d="M181.8181818181818,50Z"
+                d="M318.1818181818182,73.75999999999999L345.4545454545455,62.315"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
+              />
+            </g>
+            <g
+              clip-path="url(#victory-clip-6)"
+              style="height: 100%; width: 100%; user-select: none;"
+            >
+              <defs>
+                <clippath
+                  id="victory-clip-6"
+                >
+                  <rect
+                    height="150"
+                    vector-effect="non-scaling-stroke"
+                    width="300"
+                    x="100"
+                    y="50"
+                  />
+                </clippath>
+              </defs>
+              <path
+                d="M181.8181818181818,88.805L209.0909090909091,93.785L236.36363636363635,92.81000000000002L263.6363636363636,96.005L290.9090909090909,97.93999999999997L318.1818181818182,92.22500000000002L345.4545454545455,89.03"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
           <g>
             <g>
               <path
-                d="M 181.8181818181818, 50
+                d="M 318.1818181818182, 73.75999999999999
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 62.315
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+            </g>
+            <g>
+              <path
+                d="M 181.8181818181818, 88.805
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 209.0909090909091, 93.785
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 92.81000000000002
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 96.005
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 97.93999999999997
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 92.22500000000002
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 89.03
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
           <g>
             <rect
-              height="14"
+              height="28"
               role="presentation"
               shape-rendering="auto"
               style="fill: none;"
               vector-effect="non-scaling-stroke"
               width="39.6"
               x="416"
-              y="120"
+              y="113"
             />
             <path
-              d="M 425.128, 138.872
+              d="M 425.128, 131.872
       h9.744000000000028
       v-9.744000000000028
       h-9.744000000000028
@@ -1418,12 +1641,22 @@ exports[`Long trip tests should render long trip component 1`] = `
               shape-rendering="auto"
               style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
+            <path
+              d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+            />
             <text
               direction="inherit"
               dx="0"
               id="monthly-fare-ChartLegend-ChartLabel-0"
               x="446.8"
-              y="138.97"
+              y="131.97"
             >
               <tspan
                 dx="0"
@@ -1432,7 +1665,24 @@ exports[`Long trip tests should render long trip component 1`] = `
                 text-anchor="start"
                 x="446.8"
               >
-                1900
+                2023
+              </tspan>
+            </text>
+            <text
+              direction="inherit"
+              dx="0"
+              id="monthly-fare-ChartLegend-ChartLabel-1"
+              x="446.8"
+              y="145.97"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                text-anchor="start"
+                x="446.8"
+              >
+                2024
               </tspan>
             </text>
           </g>
@@ -1944,7 +2194,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $750
+                  $2.5
                 </tspan>
               </text>
             </g>
@@ -1985,7 +2235,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $1,500
+                  $5
                 </tspan>
               </text>
             </g>
@@ -2026,7 +2276,7 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $2,250
+                  $7.5
                 </tspan>
               </text>
             </g>
@@ -2067,19 +2317,19 @@ exports[`Long trip tests should render long trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $3,000
+                  $10
                 </tspan>
               </text>
             </g>
           </g>
           <g>
             <g
-              clip-path="url(#victory-clip-6)"
+              clip-path="url(#victory-clip-8)"
               style="height: 100%; width: 100%; user-select: none;"
             >
               <defs>
                 <clippath
-                  id="victory-clip-6"
+                  id="victory-clip-8"
                 >
                   <rect
                     height="150"
@@ -2091,39 +2341,137 @@ exports[`Long trip tests should render long trip component 1`] = `
                 </clippath>
               </defs>
               <path
-                d="M181.8181818181818,50Z"
+                d="M318.1818181818182,177.5L345.4545454545455,90.5"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
+              />
+            </g>
+            <g
+              clip-path="url(#victory-clip-9)"
+              style="height: 100%; width: 100%; user-select: none;"
+            >
+              <defs>
+                <clippath
+                  id="victory-clip-9"
+                >
+                  <rect
+                    height="150"
+                    vector-effect="non-scaling-stroke"
+                    width="300"
+                    x="100"
+                    y="50"
+                  />
+                </clippath>
+              </defs>
+              <path
+                d="M181.8181818181818,67.99999999999999L209.0909090909091,56.00000000000001L236.36363636363635,51.5L263.6363636363636,51.5L290.9090909090909,60.499999999999986L318.1818181818182,58.999999999999986L345.4545454545455,51.5"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
           <g>
             <g>
               <path
-                d="M 181.8181818181818, 50
+                d="M 318.1818181818182, 177.5
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 90.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+            </g>
+            <g>
+              <path
+                d="M 181.8181818181818, 67.99999999999999
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 209.0909090909091, 56.00000000000001
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 51.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 51.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 60.499999999999986
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 58.999999999999986
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 51.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
           <g>
             <rect
-              height="14"
+              height="28"
               role="presentation"
               shape-rendering="auto"
               style="fill: none;"
               vector-effect="non-scaling-stroke"
               width="39.6"
               x="416"
-              y="120"
+              y="113"
             />
             <path
-              d="M 425.128, 138.872
+              d="M 425.128, 131.872
       h9.744000000000028
       v-9.744000000000028
       h-9.744000000000028
@@ -2132,12 +2480,22 @@ exports[`Long trip tests should render long trip component 1`] = `
               shape-rendering="auto"
               style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
+            <path
+              d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+            />
             <text
               direction="inherit"
               dx="0"
               id="monthly-revenue-ChartLegend-ChartLabel-0"
               x="446.8"
-              y="138.97"
+              y="131.97"
             >
               <tspan
                 dx="0"
@@ -2146,7 +2504,24 @@ exports[`Long trip tests should render long trip component 1`] = `
                 text-anchor="start"
                 x="446.8"
               >
-                1900
+                2023
+              </tspan>
+            </text>
+            <text
+              direction="inherit"
+              dx="0"
+              id="monthly-revenue-ChartLegend-ChartLabel-1"
+              x="446.8"
+              y="145.97"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                text-anchor="start"
+                x="446.8"
+              >
+                2024
               </tspan>
             </text>
           </g>

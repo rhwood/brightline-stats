@@ -448,6 +448,88 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
+                y1="200"
+                y2="200"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="200"
+                y2="200"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-ridership-ChartAxis-1-ChartLabel-0"
+                x="85"
+                y="204.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  71,000
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="162.5"
+                y2="162.5"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="162.5"
+                y2="162.5"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-ridership-ChartAxis-1-ChartLabel-1"
+                x="85"
+                y="167.47"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  95,500
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
                 y1="125"
                 y2="125"
               />
@@ -464,7 +546,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <text
                 direction="inherit"
                 dx="0"
-                id="monthly-ridership-ChartAxis-1-ChartLabel-0"
+                id="monthly-ridership-ChartAxis-1-ChartLabel-2"
                 x="85"
                 y="129.97"
               >
@@ -475,7 +557,89 @@ exports[`Short trip tests should render Short trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  2,000
+                  120,000
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="87.5"
+                y2="87.5"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="87.5"
+                y2="87.5"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-ridership-ChartAxis-1-ChartLabel-3"
+                x="85"
+                y="92.47"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  144,500
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="50"
+                y2="50"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="50"
+                y2="50"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-ridership-ChartAxis-1-ChartLabel-4"
+                x="85"
+                y="54.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  169,000
                 </tspan>
               </text>
             </g>
@@ -499,48 +663,182 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 </clippath>
               </defs>
               <path
-                d="M154.54545454545456,125L181.8181818181818,125"
+                d="M181.8181818181818,77.42857142857143L209.0909090909091,51.32091836734694L236.36363636363635,79.79183673469387L263.6363636363636,69.16632653061224L290.9090909090909,79.35561224489796L318.1818181818182,116.61989795918367L345.4545454545455,115.72602040816327"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
+              />
+            </g>
+            <g
+              clip-path="url(#victory-clip-3)"
+              style="height: 100%; width: 100%; user-select: none;"
+            >
+              <defs>
+                <clippath
+                  id="victory-clip-3"
+                >
+                  <rect
+                    height="150"
+                    vector-effect="non-scaling-stroke"
+                    width="300"
+                    x="100"
+                    y="50"
+                  />
+                </clippath>
+              </defs>
+              <path
+                d="M181.8181818181818,149.8923469387755L209.0909090909091,161.78826530612247L236.36363636363635,180.00714285714287L263.6363636363636,190.95867346938775L290.9090909090909,199.22397959183675L318.1818181818182,193.52551020408163L345.4545454545455,180.84591836734697"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
           <g>
             <g>
               <path
-                d="M 154.54545454545456, 125
+                d="M 181.8181818181818, 77.42857142857143
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
               <path
-                d="M 181.8181818181818, 125
+                d="M 209.0909090909091, 51.32091836734694
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 79.79183673469387
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 69.16632653061224
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 79.35561224489796
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 116.61989795918367
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 115.72602040816327
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+            </g>
+            <g>
+              <path
+                d="M 181.8181818181818, 149.8923469387755
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 209.0909090909091, 161.78826530612247
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 180.00714285714287
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 190.95867346938775
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 199.22397959183675
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 193.52551020408163
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 180.84591836734697
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
           <g>
             <rect
-              height="14"
+              height="28"
               role="presentation"
               shape-rendering="auto"
               style="fill: none;"
               vector-effect="non-scaling-stroke"
               width="39.6"
               x="416"
-              y="120"
+              y="113"
             />
             <path
-              d="M 425.128, 138.872
+              d="M 425.128, 131.872
       h9.744000000000028
       v-9.744000000000028
       h-9.744000000000028
@@ -549,12 +847,22 @@ exports[`Short trip tests should render Short trip component 1`] = `
               shape-rendering="auto"
               style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
+            <path
+              d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+            />
             <text
               direction="inherit"
               dx="0"
               id="monthly-ridership-ChartLegend-ChartLabel-0"
               x="446.8"
-              y="138.97"
+              y="131.97"
             >
               <tspan
                 dx="0"
@@ -563,7 +871,24 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 text-anchor="start"
                 x="446.8"
               >
-                1900
+                2023
+              </tspan>
+            </text>
+            <text
+              direction="inherit"
+              dx="0"
+              id="monthly-ridership-ChartLegend-ChartLabel-1"
+              x="446.8"
+              y="145.97"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                text-anchor="start"
+                x="446.8"
+              >
+                2024
               </tspan>
             </text>
           </g>
@@ -1007,6 +1332,88 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
+                y1="200"
+                y2="200"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="200"
+                y2="200"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-fare-ChartAxis-1-ChartLabel-0"
+                x="85"
+                y="204.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $10.00
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="162.5"
+                y2="162.5"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="162.5"
+                y2="162.5"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-fare-ChartAxis-1-ChartLabel-1"
+                x="85"
+                y="167.47"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $17.50
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
                 y1="125"
                 y2="125"
               />
@@ -1023,7 +1430,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <text
                 direction="inherit"
                 dx="0"
-                id="monthly-fare-ChartAxis-1-ChartLabel-0"
+                id="monthly-fare-ChartAxis-1-ChartLabel-2"
                 x="85"
                 y="129.97"
               >
@@ -1034,19 +1441,101 @@ exports[`Short trip tests should render Short trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $20.00
+                  $25.00
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="87.5"
+                y2="87.5"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="87.5"
+                y2="87.5"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-fare-ChartAxis-1-ChartLabel-3"
+                x="85"
+                y="92.47"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $32.50
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="50"
+                y2="50"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="50"
+                y2="50"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-fare-ChartAxis-1-ChartLabel-4"
+                x="85"
+                y="54.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $40.00
                 </tspan>
               </text>
             </g>
           </g>
           <g>
             <g
-              clip-path="url(#victory-clip-4)"
+              clip-path="url(#victory-clip-5)"
               style="height: 100%; width: 100%; user-select: none;"
             >
               <defs>
                 <clippath
-                  id="victory-clip-4"
+                  id="victory-clip-5"
                 >
                   <rect
                     height="150"
@@ -1058,48 +1547,182 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 </clippath>
               </defs>
               <path
-                d="M154.54545454545456,125L181.8181818181818,125"
+                d="M181.8181818181818,135.95000000000002L209.0909090909091,146.85000000000002L236.36363636363635,159.5L263.6363636363636,159.94999999999996L290.9090909090909,163.85000000000002L318.1818181818182,146.85000000000002L345.4545454545455,127.35"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
+              />
+            </g>
+            <g
+              clip-path="url(#victory-clip-6)"
+              style="height: 100%; width: 100%; user-select: none;"
+            >
+              <defs>
+                <clippath
+                  id="victory-clip-6"
+                >
+                  <rect
+                    height="150"
+                    vector-effect="non-scaling-stroke"
+                    width="300"
+                    x="100"
+                    y="50"
+                  />
+                </clippath>
+              </defs>
+              <path
+                d="M181.8181818181818,82.45L209.0909090909091,96.9L236.36363636363635,109.85L263.6363636363636,114.60000000000002L290.9090909090909,111.19999999999999L318.1818181818182,120.60000000000001L345.4545454545455,112"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
           <g>
             <g>
               <path
-                d="M 154.54545454545456, 125
+                d="M 181.8181818181818, 135.95000000000002
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
               <path
-                d="M 181.8181818181818, 125
+                d="M 209.0909090909091, 146.85000000000002
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 159.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 159.94999999999996
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 163.85000000000002
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 146.85000000000002
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 127.35
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+            </g>
+            <g>
+              <path
+                d="M 181.8181818181818, 82.45
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 209.0909090909091, 96.9
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 109.85
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 114.60000000000002
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 111.19999999999999
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 120.60000000000001
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 112
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
           <g>
             <rect
-              height="14"
+              height="28"
               role="presentation"
               shape-rendering="auto"
               style="fill: none;"
               vector-effect="non-scaling-stroke"
               width="39.6"
               x="416"
-              y="120"
+              y="113"
             />
             <path
-              d="M 425.128, 138.872
+              d="M 425.128, 131.872
       h9.744000000000028
       v-9.744000000000028
       h-9.744000000000028
@@ -1108,12 +1731,22 @@ exports[`Short trip tests should render Short trip component 1`] = `
               shape-rendering="auto"
               style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
+            <path
+              d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+            />
             <text
               direction="inherit"
               dx="0"
               id="monthly-fare-ChartLegend-ChartLabel-0"
               x="446.8"
-              y="138.97"
+              y="131.97"
             >
               <tspan
                 dx="0"
@@ -1122,7 +1755,24 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 text-anchor="start"
                 x="446.8"
               >
-                1900
+                2023
+              </tspan>
+            </text>
+            <text
+              direction="inherit"
+              dx="0"
+              id="monthly-fare-ChartLegend-ChartLabel-1"
+              x="446.8"
+              y="145.97"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                text-anchor="start"
+                x="446.8"
+              >
+                2024
               </tspan>
             </text>
           </g>
@@ -1566,6 +2216,88 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
+                y1="200"
+                y2="200"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="200"
+                y2="200"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-revenue-ChartAxis-1-ChartLabel-0"
+                x="85"
+                y="204.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $0
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="162.5"
+                y2="162.5"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="162.5"
+                y2="162.5"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-revenue-ChartAxis-1-ChartLabel-1"
+                x="85"
+                y="167.47"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $2.5
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
                 y1="125"
                 y2="125"
               />
@@ -1582,7 +2314,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <text
                 direction="inherit"
                 dx="0"
-                id="monthly-revenue-ChartAxis-1-ChartLabel-0"
+                id="monthly-revenue-ChartAxis-1-ChartLabel-2"
                 x="85"
                 y="129.97"
               >
@@ -1593,19 +2325,101 @@ exports[`Short trip tests should render Short trip component 1`] = `
                   text-anchor="end"
                   x="85"
                 >
-                  $2,000
+                  $5
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="87.5"
+                y2="87.5"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="87.5"
+                y2="87.5"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-revenue-ChartAxis-1-ChartLabel-3"
+                x="85"
+                y="92.47"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $7.5
+                </tspan>
+              </text>
+            </g>
+            <g
+              role="presentation"
+            >
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="400"
+                y1="50"
+                y2="50"
+              />
+              <line
+                role="presentation"
+                shape-rendering="auto"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                vector-effect="non-scaling-stroke"
+                x1="100"
+                x2="95"
+                y1="50"
+                y2="50"
+              />
+              <text
+                direction="inherit"
+                dx="0"
+                id="monthly-revenue-ChartAxis-1-ChartLabel-4"
+                x="85"
+                y="54.97"
+              >
+                <tspan
+                  dx="0"
+                  dy="0"
+                  style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                  text-anchor="end"
+                  x="85"
+                >
+                  $10
                 </tspan>
               </text>
             </g>
           </g>
           <g>
             <g
-              clip-path="url(#victory-clip-6)"
+              clip-path="url(#victory-clip-8)"
               style="height: 100%; width: 100%; user-select: none;"
             >
               <defs>
                 <clippath
-                  id="victory-clip-6"
+                  id="victory-clip-8"
                 >
                   <rect
                     height="150"
@@ -1617,48 +2431,182 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 </clippath>
               </defs>
               <path
-                d="M154.54545454545456,125L181.8181818181818,125"
+                d="M181.8181818181818,149L209.0909090909091,147.5L236.36363636363635,159.5L263.6363636363636,158L290.9090909090909,161L318.1818181818182,161L345.4545454545455,153.5"
                 role="presentation"
                 shape-rendering="auto"
-                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 75px; opacity: 1; stroke-width: 2;"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
+              />
+            </g>
+            <g
+              clip-path="url(#victory-clip-9)"
+              style="height: 100%; width: 100%; user-select: none;"
+            >
+              <defs>
+                <clippath
+                  id="victory-clip-9"
+                >
+                  <rect
+                    height="150"
+                    vector-effect="non-scaling-stroke"
+                    width="300"
+                    x="100"
+                    y="50"
+                  />
+                </clippath>
+              </defs>
+              <path
+                d="M181.8181818181818,147.5L209.0909090909091,156.5L236.36363636363635,164L263.6363636363636,168.5L290.9090909090909,170L318.1818181818182,171.5L345.4545454545455,165.5"
+                role="presentation"
+                shape-rendering="auto"
+                style="fill: none; stroke: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); pointer-events: stroke; width: 11px; opacity: 1; stroke-width: 2;"
               />
             </g>
           </g>
           <g>
             <g>
               <path
-                d="M 154.54545454545456, 125
+                d="M 181.8181818181818, 149
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
               <path
-                d="M 181.8181818181818, 125
+                d="M 209.0909090909091, 147.5
       m -3, 0
       a 3, 3 0 1,0 6,0
       a 3, 3 0 1,0 -6,0"
                 role="presentation"
                 shape-rendering="auto"
-                style="width: 75px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 159.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 158
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 161
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 161
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 153.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+            </g>
+            <g>
+              <path
+                d="M 181.8181818181818, 147.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 209.0909090909091, 156.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 236.36363636363635, 164
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 263.6363636363636, 168.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 290.9090909090909, 170
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 318.1818181818182, 171.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
+              />
+              <path
+                d="M 345.4545454545455, 165.5
+      m -3, 0
+      a 3, 3 0 1,0 6,0
+      a 3, 3 0 1,0 -6,0"
+                role="presentation"
+                shape-rendering="auto"
+                style="width: 11px; fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614); opacity: 1; stroke: var(--pf-v6-chart-scatter--data--stroke--Color, transparent); stroke-width: 0;"
               />
             </g>
           </g>
           <g>
             <rect
-              height="14"
+              height="28"
               role="presentation"
               shape-rendering="auto"
               style="fill: none;"
               vector-effect="non-scaling-stroke"
               width="39.6"
               x="416"
-              y="120"
+              y="113"
             />
             <path
-              d="M 425.128, 138.872
+              d="M 425.128, 131.872
       h9.744000000000028
       v-9.744000000000028
       h-9.744000000000028
@@ -1667,12 +2615,22 @@ exports[`Short trip tests should render Short trip component 1`] = `
               shape-rendering="auto"
               style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
+            <path
+              d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
+      z"
+              role="presentation"
+              shape-rendering="auto"
+              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+            />
             <text
               direction="inherit"
               dx="0"
               id="monthly-revenue-ChartLegend-ChartLabel-0"
               x="446.8"
-              y="138.97"
+              y="131.97"
             >
               <tspan
                 dx="0"
@@ -1681,7 +2639,24 @@ exports[`Short trip tests should render Short trip component 1`] = `
                 text-anchor="start"
                 x="446.8"
               >
-                1900
+                2023
+              </tspan>
+            </text>
+            <text
+              direction="inherit"
+              dx="0"
+              id="monthly-revenue-ChartLegend-ChartLabel-1"
+              x="446.8"
+              y="145.97"
+            >
+              <tspan
+                dx="0"
+                dy="0"
+                style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                text-anchor="start"
+                x="446.8"
+              >
+                2024
               </tspan>
             </text>
           </g>
