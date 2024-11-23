@@ -69,7 +69,6 @@ export const RollingMonthlyChart = ({ name, source, legends, lineFn, base = 1000
     for (const fi in yFns) {
       const yFn = yFns[fi]
       const shiftMonth = stat.Month + minMonth - (12 - mostRecentMonth)
-      console.log("Months: stat:" + stat.Month + " min: " + minMonth + " shift: " + shiftMonth);
       const row: Row = {name: stat.Year, x:(stat.Month > minMonth - 1 ? shiftMonth : shiftMonth + 12), y: yFn(stat)}
       if (row.x > 12) {
         fakingIt = true
