@@ -71,7 +71,7 @@
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "5.1.0",
     "webpack-merge": "6.0.1",
-    "victory": "37.3.2"
+    "victory": "37.3.3"
   },
   "dependencies": {
     "@patternfly/react-core": "6.0.0",
