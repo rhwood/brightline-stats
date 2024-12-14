@@ -66,21 +66,22 @@ export const RollingMonthlyChart = ({ name, source, legends, lineFn, base = 1000
   const data: Row[][] = Array.from({length: yFns.length}, () => []);
   let fakingIt = false
   rollingSource.forEach((stat, ri) => {
-    for (const fi in yFns) {
-      const yFn = yFns[fi]
+    yFns.forEach((yFn, fi) => {
       const shiftMonth = stat.Month + minMonth - (12 - mostRecentMonth)
-      const row: Row = {name: legends_[fi].name, x:(stat.Month > minMonth - 1 ? shiftMonth : shiftMonth + 12), y: yFn(stat)}
+      const x = stat.Month >= minMonth ? shiftMonth : shiftMonth + 12
+      const row: Row = {name: legends_[fi].name, x:x, y: yFn(stat)}
       if (row.x > 12) {
         fakingIt = true
       }
+      row.x = row.x - 1 - (12 - mostRecentMonth)
       data[fi][ri] = row
-    }
+    })
   });
   const tickRange = getRangeFromRows(data, base)
   if (fakingIt) {
     data.forEach((line, li) => {
       line.forEach((row, ri) => {
-        if (row.x > 12) {
+        if (row.x > mostRecentMonth + 1) {
           row.y = tickRange[0]
           data[li][ri] = row
         }
