@@ -197,7 +197,15 @@ export const getHighestMonth = (source, year: number): number => source.filter((
   (prev: number, row: BrightlineStats) => prev > row.Month ? prev : row.Month
 );
 export const getMonthlyData = (source, year: number, yFn: (row: BrightlineStats) => number): Row[] => source.filter((row: BrightlineStats) => row.Year === year).reduce(
-  (prev: Row[], row: BrightlineStats) => [...prev, { name: row.Year, x: row.Month, y: yFn(row) }], []
+  (prev: Row[], row: BrightlineStats) => {
+    let y: number = 0
+    try {
+      y = yFn(row)
+    } finally {
+      // yFn(row) may fail treating NaN as a real number
+    }
+    return [...prev, { name: row.Year, x: row.Month, y: y }]
+  }, []
 );
 export const getRange = (source, nFn: (row: BrightlineStats) => number, base: number = 1000): number[] => {
   let max: number = 0;
@@ -229,6 +237,9 @@ export const getRangeFromRows = (source: Row[][], base: number = 1000): number[]
   return Array.from({length: segments + 1}, (e, i) => min + (((max - min) / segments) * i));
 }
 export const formatLabel = (format: LabelFormat, name: string, x, y): string => {
+  if (y === null) {
+    return ''
+  }
   switch(format) {
     case LabelFormat.curreny:
       return name + ': $' + y.toLocaleString()
