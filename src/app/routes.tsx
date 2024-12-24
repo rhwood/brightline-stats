@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Route, RouteComponentProps, Switch, useLocation } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { Dashboard } from '@app/Dashboard/Dashboard';
 import { Support } from '@app/Support/Support';
 import { Sources } from '@app/Sources/Sources';
@@ -9,15 +9,13 @@ import { Ridership } from '@app/Ridership/Ridership';
 import { Fares } from '@app/Fares/Fares';
 import { Revenues } from '@app/Revenues/Revenues';
 import { NotFound } from '@app/NotFound/NotFound';
-import { useDocumentTitle } from '@app/utils/useDocumentTitle';
 
 const BASE_PATH = process.env.BASE_PATH || '/';
 
-let routeFocusTimer: number;
 export interface IAppRoute {
   label?: string; // Excluding the label will exclude the route from the nav sidebar in AppLayout
   /* eslint-disable @typescript-eslint/no-explicit-any */
-  component: React.ComponentType<RouteComponentProps<any>> | React.ComponentType<any>;
+  element: React.ReactElement;
   /* eslint-enable @typescript-eslint/no-explicit-any */
   exact?: boolean;
   path: string;
@@ -34,7 +32,7 @@ export type AppRouteConfig = IAppRoute | IAppRouteGroup;
 
 const routes: AppRouteConfig[] = [
   {
-    component: Dashboard,
+    element: <Dashboard />,
     exact: true,
     label: 'Overall',
     path: BASE_PATH,
@@ -44,14 +42,14 @@ const routes: AppRouteConfig[] = [
     label: 'Trip Length',
     routes: [
       {
-        component: Short,
+        element: <Short />,
         exact: true,
         label: 'Short Distance',
         path: BASE_PATH + 'trip/short',
         title: 'Brightline Ridership | Short Distance Trips'
       },
       {
-        component: Long,
+        element: <Long />,
         exact: true,
         label: 'Long Distance',
         path: BASE_PATH + 'trip/long',
@@ -60,35 +58,35 @@ const routes: AppRouteConfig[] = [
     ]
   },
   {
-    component: Ridership,
+    element: <Ridership />,
     exact: true,
     label: 'Ridership',
     path: BASE_PATH + 'ridership',
     title: 'Brightline Ridership | Ridership'
   },
   {
-    component: Fares,
+    element: <Fares />,
     exact: true,
     label: 'Average Fare per Passenger',
     path: BASE_PATH + 'fares',
     title: 'Brightline Ridership | Average Fare per Passenger'
   },
   {
-    component: Revenues,
+    element: <Revenues />,
     exact: true,
     label: 'Revenues',
     path: BASE_PATH + 'revenues',
     title: 'Brightline Ridership | Revenues'
   },
   {
-    component: Sources,
+    element: <Sources />,
     exact: true,
     label: 'Sources',
     path: BASE_PATH + 'sources',
     title: 'Brightline Ridership | Sources',
   },
   {
-    component: Support,
+    element: <Support />,
     exact: true,
     label: 'Support',
     path: BASE_PATH + 'support',
@@ -96,53 +94,18 @@ const routes: AppRouteConfig[] = [
   },
 ];
 
-// a custom hook for sending focus to the primary content container
-// after a view has loaded so that subsequent press of tab key
-// sends focus directly to relevant content
-// may not be necessary if https://github.com/ReactTraining/react-router/issues/5210 is resolved
-const useA11yRouteChange = () => {
-  const { pathname } = useLocation();
-  React.useEffect(() => {
-    routeFocusTimer = window.setTimeout(() => {
-      const mainContainer = document.getElementById('primary-app-container');
-      if (mainContainer) {
-        mainContainer.focus();
-      }
-    }, 50);
-    return () => {
-      window.clearTimeout(routeFocusTimer);
-    };
-  }, [pathname]);
-};
-
-const RouteWithTitleUpdates = ({ component: Component, title, ...rest }: IAppRoute) => {
-  useA11yRouteChange();
-  useDocumentTitle(title);
-
-  function routeWithTitle(routeProps: RouteComponentProps) {
-    return <Component {...rest} {...routeProps} />;
-  }
-
-  return <Route render={routeWithTitle} {...rest} />;
-};
-
-const PageNotFound = ({ title }: { title: string }) => {
-  useDocumentTitle(title);
-  return <Route component={NotFound} />;
-};
-
 const flattenedRoutes: IAppRoute[] = routes.reduce(
   (flattened, route) => [...flattened, ...(route.routes ? route.routes : [route])],
   [] as IAppRoute[]
 );
 
 const AppRoutes = (): React.ReactElement => (
-  <Switch>
-    {flattenedRoutes.map(({ path, exact, component, title }, idx) => (
-      <RouteWithTitleUpdates path={path} exact={exact} component={component} key={idx} title={title} />
+  <Routes>
+    {flattenedRoutes.map(({ path, element }, idx) => (
+      <Route path={path} element={element} key={idx} />
     ))}
-    <PageNotFound title="404 Page Not Found" />
-  </Switch>
+    <Route element={<NotFound />} />
+  </Routes>
 );
 
 export { AppRoutes, routes };

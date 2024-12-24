@@ -1,6 +1,12 @@
+/**
+  * @jest-environment jsdom
+  */
+import { TextDecoder, TextEncoder } from 'util';
+Object.assign(global, { TextDecoder, TextEncoder });
+
 import * as React from 'react';
 import App from '@app/index';
-import { act, render, screen,  } from '@testing-library/react';
+import { act, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
 

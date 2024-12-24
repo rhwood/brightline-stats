@@ -108,6 +108,7 @@ exports[`App tests should render default App component 1`] = `
               <a
                 aria-current="page"
                 class="pf-v6-c-nav__link pf-m-current active"
+                data-discover="true"
                 href="/"
               >
                 Overall
@@ -164,6 +165,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v6-c-nav__link"
+                      data-discover="true"
                       href="/trip/short"
                     >
                       Short Distance
@@ -177,6 +179,7 @@ exports[`App tests should render default App component 1`] = `
                   >
                     <a
                       class="pf-v6-c-nav__link"
+                      data-discover="true"
                       href="/trip/long"
                     >
                       Long Distance
@@ -193,6 +196,7 @@ exports[`App tests should render default App component 1`] = `
             >
               <a
                 class="pf-v6-c-nav__link"
+                data-discover="true"
                 href="/ridership"
               >
                 Ridership
@@ -206,6 +210,7 @@ exports[`App tests should render default App component 1`] = `
             >
               <a
                 class="pf-v6-c-nav__link"
+                data-discover="true"
                 href="/fares"
               >
                 Average Fare per Passenger
@@ -219,6 +224,7 @@ exports[`App tests should render default App component 1`] = `
             >
               <a
                 class="pf-v6-c-nav__link"
+                data-discover="true"
                 href="/revenues"
               >
                 Revenues
@@ -232,6 +238,7 @@ exports[`App tests should render default App component 1`] = `
             >
               <a
                 class="pf-v6-c-nav__link"
+                data-discover="true"
                 href="/sources"
               >
                 Sources
@@ -245,6 +252,7 @@ exports[`App tests should render default App component 1`] = `
             >
               <a
                 class="pf-v6-c-nav__link"
+                data-discover="true"
                 href="/support"
               >
                 Support
@@ -915,12 +923,12 @@ exports[`App tests should render default App component 1`] = `
                 </g>
                 <g>
                   <g
-                    clip-path="url(#victory-clip-2)"
+                    clip-path="url(#victory-clip-4)"
                     style="height: 100%; width: 100%; user-select: none;"
                   >
                     <defs>
                       <clippath
-                        id="victory-clip-2"
+                        id="victory-clip-4"
                       >
                         <rect
                           height="150"
@@ -939,12 +947,12 @@ exports[`App tests should render default App component 1`] = `
                     />
                   </g>
                   <g
-                    clip-path="url(#victory-clip-3)"
+                    clip-path="url(#victory-clip-5)"
                     style="height: 100%; width: 100%; user-select: none;"
                   >
                     <defs>
                       <clippath
-                        id="victory-clip-3"
+                        id="victory-clip-5"
                       >
                         <rect
                           height="150"
@@ -1103,24 +1111,24 @@ exports[`App tests should render default App component 1`] = `
                     style="fill: none;"
                     vector-effect="non-scaling-stroke"
                     width="39.6"
-                    x="416"
+                    x="616"
                     y="113"
                   />
                   <path
-                    d="M 425.128, 131.872
-      h9.744000000000028
-      v-9.744000000000028
-      h-9.744000000000028
+                    d="M 625.128, 131.872
+      h9.743999999999915
+      v-9.743999999999915
+      h-9.743999999999915
       z"
                     role="presentation"
                     shape-rendering="auto"
                     style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <path
-                    d="M 425.128, 145.872
-      h9.744000000000028
-      v-9.744000000000028
-      h-9.744000000000028
+                    d="M 625.128, 145.872
+      h9.743999999999915
+      v-9.743999999999915
+      h-9.743999999999915
       z"
                     role="presentation"
                     shape-rendering="auto"
@@ -1130,7 +1138,7 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-ridership-ChartLegend-ChartLabel-0"
-                    x="446.8"
+                    x="646.8"
                     y="131.97"
                   >
                     <tspan
@@ -1138,7 +1146,7 @@ exports[`App tests should render default App component 1`] = `
                       dy="0"
                       style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="446.8"
+                      x="646.8"
                     >
                       2023
                     </tspan>
@@ -1147,7 +1155,7 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-ridership-ChartLegend-ChartLabel-1"
-                    x="446.8"
+                    x="646.8"
                     y="145.97"
                   >
                     <tspan
@@ -1155,7 +1163,7 @@ exports[`App tests should render default App component 1`] = `
                       dy="0"
                       style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="446.8"
+                      x="646.8"
                     >
                       2024
                     </tspan>
@@ -1799,12 +1807,12 @@ exports[`App tests should render default App component 1`] = `
                 </g>
                 <g>
                   <g
-                    clip-path="url(#victory-clip-5)"
+                    clip-path="url(#victory-clip-6)"
                     style="height: 100%; width: 100%; user-select: none;"
                   >
                     <defs>
                       <clippath
-                        id="victory-clip-5"
+                        id="victory-clip-6"
                       >
                         <rect
                           height="150"
@@ -1823,12 +1831,12 @@ exports[`App tests should render default App component 1`] = `
                     />
                   </g>
                   <g
-                    clip-path="url(#victory-clip-6)"
+                    clip-path="url(#victory-clip-7)"
                     style="height: 100%; width: 100%; user-select: none;"
                   >
                     <defs>
                       <clippath
-                        id="victory-clip-6"
+                        id="victory-clip-7"
                       >
                         <rect
                           height="150"
@@ -1987,24 +1995,24 @@ exports[`App tests should render default App component 1`] = `
                     style="fill: none;"
                     vector-effect="non-scaling-stroke"
                     width="39.6"
-                    x="416"
+                    x="616"
                     y="113"
                   />
                   <path
-                    d="M 425.128, 131.872
-      h9.744000000000028
-      v-9.744000000000028
-      h-9.744000000000028
+                    d="M 625.128, 131.872
+      h9.743999999999915
+      v-9.743999999999915
+      h-9.743999999999915
       z"
                     role="presentation"
                     shape-rendering="auto"
                     style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <path
-                    d="M 425.128, 145.872
-      h9.744000000000028
-      v-9.744000000000028
-      h-9.744000000000028
+                    d="M 625.128, 145.872
+      h9.743999999999915
+      v-9.743999999999915
+      h-9.743999999999915
       z"
                     role="presentation"
                     shape-rendering="auto"
@@ -2014,7 +2022,7 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-fare-ChartLegend-ChartLabel-0"
-                    x="446.8"
+                    x="646.8"
                     y="131.97"
                   >
                     <tspan
@@ -2022,7 +2030,7 @@ exports[`App tests should render default App component 1`] = `
                       dy="0"
                       style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="446.8"
+                      x="646.8"
                     >
                       2023
                     </tspan>
@@ -2031,7 +2039,7 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-fare-ChartLegend-ChartLabel-1"
-                    x="446.8"
+                    x="646.8"
                     y="145.97"
                   >
                     <tspan
@@ -2039,7 +2047,7 @@ exports[`App tests should render default App component 1`] = `
                       dy="0"
                       style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="446.8"
+                      x="646.8"
                     >
                       2024
                     </tspan>
@@ -2871,24 +2879,24 @@ exports[`App tests should render default App component 1`] = `
                     style="fill: none;"
                     vector-effect="non-scaling-stroke"
                     width="39.6"
-                    x="416"
+                    x="616"
                     y="113"
                   />
                   <path
-                    d="M 425.128, 131.872
-      h9.744000000000028
-      v-9.744000000000028
-      h-9.744000000000028
+                    d="M 625.128, 131.872
+      h9.743999999999915
+      v-9.743999999999915
+      h-9.743999999999915
       z"
                     role="presentation"
                     shape-rendering="auto"
                     style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <path
-                    d="M 425.128, 145.872
-      h9.744000000000028
-      v-9.744000000000028
-      h-9.744000000000028
+                    d="M 625.128, 145.872
+      h9.743999999999915
+      v-9.743999999999915
+      h-9.743999999999915
       z"
                     role="presentation"
                     shape-rendering="auto"
@@ -2898,7 +2906,7 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-revenue-ChartLegend-ChartLabel-0"
-                    x="446.8"
+                    x="646.8"
                     y="131.97"
                   >
                     <tspan
@@ -2906,7 +2914,7 @@ exports[`App tests should render default App component 1`] = `
                       dy="0"
                       style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="446.8"
+                      x="646.8"
                     >
                       2023
                     </tspan>
@@ -2915,7 +2923,7 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-revenue-ChartLegend-ChartLabel-1"
-                    x="446.8"
+                    x="646.8"
                     y="145.97"
                   >
                     <tspan
@@ -2923,7 +2931,7 @@ exports[`App tests should render default App component 1`] = `
                       dy="0"
                       style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="446.8"
+                      x="646.8"
                     >
                       2024
                     </tspan>
