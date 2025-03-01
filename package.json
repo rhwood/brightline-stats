@@ -15,7 +15,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "eslint": "eslint --ext .tsx,.js ./src/",
+    "eslint": "eslint ./src/",
     "lint": "npm run eslint",
     "format": "prettier --check --write ./src/**/*.{tsx,ts}",
     "type-check": "tsc --noEmit",
@@ -25,8 +25,10 @@
     "clean": "rimraf dist"
   },
   "devDependencies": {
+    "@eslint/compat": "^1.2.7",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
     "@patternfly/react-charts": "8.0.0",
-    "@redhat-cloud-services/eslint-config-redhat-cloud-services": "2.0.4",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.2.0",
     "@testing-library/user-event": "14.5.2",
@@ -39,9 +41,10 @@
     "css-minimizer-webpack-plugin": "7.0.0",
     "csv-loader": "3.0.5",
     "dotenv-webpack": "8.1.0",
-    "eslint": "8.57.1",
+    "eslint": "9.21.0",
     "eslint-plugin-react": "7.37.3",
     "eslint-plugin-react-hooks": "5.1.0",
+    "globals": "^16.0.0",
     "html-webpack-plugin": "5.6.3",
     "imagemin": "9.0.0",
     "jest": "29.7.0",
@@ -66,12 +69,12 @@
     "tslib": "2.8.1",
     "typescript": "5.7.3",
     "url-loader": "4.1.1",
+    "victory": "37.3.6",
     "webpack": "5.97.1",
     "webpack-bundle-analyzer": "4.10.2",
     "webpack-cli": "6.0.1",
     "webpack-dev-server": "5.1.0",
-    "webpack-merge": "6.0.1",
-    "victory": "37.3.6"
+    "webpack-merge": "6.0.1"
   },
   "dependencies": {
     "@patternfly/react-core": "6.1.0",
