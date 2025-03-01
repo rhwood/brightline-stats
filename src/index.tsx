@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== "production") {
       }
     ]
   };
-  // eslint-disable-next-line @typescript-eslint/no-require-imports, @typescript-eslint/no-var-requires, no-undef
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   const axe = require("react-axe");
   axe(React, ReactDOM, 1000, config);
 }
