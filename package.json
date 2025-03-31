@@ -62,7 +62,7 @@
     "sirv-cli": "3.0.0",
     "style-loader": "4.0.0",
     "svg-url-loader": "8.0.0",
-    "terser-webpack-plugin": "5.3.10",
+    "terser-webpack-plugin": "5.3.14",
     "ts-jest": "29.2.5",
     "ts-loader": "9.5.2",
     "tsconfig-paths-webpack-plugin": "4.2.0",
