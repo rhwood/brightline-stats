@@ -352,7 +352,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="100"
                       >
@@ -383,7 +383,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="127.27272727272728"
                       >
@@ -414,7 +414,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="154.54545454545456"
                       >
@@ -445,7 +445,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="181.8181818181818"
                       >
@@ -476,7 +476,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="209.0909090909091"
                       >
@@ -507,7 +507,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="236.36363636363635"
                       >
@@ -538,7 +538,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="263.6363636363636"
                       >
@@ -569,7 +569,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="290.9090909090909"
                       >
@@ -600,7 +600,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="318.1818181818182"
                       >
@@ -631,7 +631,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="345.4545454545455"
                       >
@@ -662,7 +662,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="372.72727272727275"
                       >
@@ -693,7 +693,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="400"
                       >
@@ -748,7 +748,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -789,7 +789,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -830,7 +830,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -871,7 +871,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -912,7 +912,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -1111,24 +1111,24 @@ exports[`App tests should render default App component 1`] = `
                     style="fill: none;"
                     vector-effect="non-scaling-stroke"
                     width="39.6"
-                    x="616"
+                    x="416"
                     y="113"
                   />
                   <path
-                    d="M 625.128, 131.872
-      h9.743999999999915
-      v-9.743999999999915
-      h-9.743999999999915
+                    d="M 425.128, 131.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
       z"
                     role="presentation"
                     shape-rendering="auto"
                     style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <path
-                    d="M 625.128, 145.872
-      h9.743999999999915
-      v-9.743999999999915
-      h-9.743999999999915
+                    d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
       z"
                     role="presentation"
                     shape-rendering="auto"
@@ -1138,15 +1138,15 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-ridership-ChartLegend-ChartLabel-0"
-                    x="646.8"
+                    x="446.8"
                     y="131.97"
                   >
                     <tspan
                       dx="0"
                       dy="0"
-                      style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                      style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="646.8"
+                      x="446.8"
                     >
                       2023
                     </tspan>
@@ -1155,15 +1155,15 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-ridership-ChartLegend-ChartLabel-1"
-                    x="646.8"
+                    x="446.8"
                     y="145.97"
                   >
                     <tspan
                       dx="0"
                       dy="0"
-                      style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                      style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="646.8"
+                      x="446.8"
                     >
                       2024
                     </tspan>
@@ -1236,7 +1236,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="100"
                       >
@@ -1267,7 +1267,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="127.27272727272728"
                       >
@@ -1298,7 +1298,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="154.54545454545456"
                       >
@@ -1329,7 +1329,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="181.8181818181818"
                       >
@@ -1360,7 +1360,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="209.0909090909091"
                       >
@@ -1391,7 +1391,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="236.36363636363635"
                       >
@@ -1422,7 +1422,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="263.6363636363636"
                       >
@@ -1453,7 +1453,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="290.9090909090909"
                       >
@@ -1484,7 +1484,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="318.1818181818182"
                       >
@@ -1515,7 +1515,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="345.4545454545455"
                       >
@@ -1546,7 +1546,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="372.72727272727275"
                       >
@@ -1577,7 +1577,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="400"
                       >
@@ -1632,7 +1632,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -1673,7 +1673,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -1714,7 +1714,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -1755,7 +1755,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -1796,7 +1796,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -1995,24 +1995,24 @@ exports[`App tests should render default App component 1`] = `
                     style="fill: none;"
                     vector-effect="non-scaling-stroke"
                     width="39.6"
-                    x="616"
+                    x="416"
                     y="113"
                   />
                   <path
-                    d="M 625.128, 131.872
-      h9.743999999999915
-      v-9.743999999999915
-      h-9.743999999999915
+                    d="M 425.128, 131.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
       z"
                     role="presentation"
                     shape-rendering="auto"
                     style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <path
-                    d="M 625.128, 145.872
-      h9.743999999999915
-      v-9.743999999999915
-      h-9.743999999999915
+                    d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
       z"
                     role="presentation"
                     shape-rendering="auto"
@@ -2022,15 +2022,15 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-fare-ChartLegend-ChartLabel-0"
-                    x="646.8"
+                    x="446.8"
                     y="131.97"
                   >
                     <tspan
                       dx="0"
                       dy="0"
-                      style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                      style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="646.8"
+                      x="446.8"
                     >
                       2023
                     </tspan>
@@ -2039,15 +2039,15 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-fare-ChartLegend-ChartLabel-1"
-                    x="646.8"
+                    x="446.8"
                     y="145.97"
                   >
                     <tspan
                       dx="0"
                       dy="0"
-                      style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                      style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="646.8"
+                      x="446.8"
                     >
                       2024
                     </tspan>
@@ -2120,7 +2120,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="100"
                       >
@@ -2151,7 +2151,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="127.27272727272728"
                       >
@@ -2182,7 +2182,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="154.54545454545456"
                       >
@@ -2213,7 +2213,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="181.8181818181818"
                       >
@@ -2244,7 +2244,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="209.0909090909091"
                       >
@@ -2275,7 +2275,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="236.36363636363635"
                       >
@@ -2306,7 +2306,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="263.6363636363636"
                       >
@@ -2337,7 +2337,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="290.9090909090909"
                       >
@@ -2368,7 +2368,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="318.1818181818182"
                       >
@@ -2399,7 +2399,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="345.4545454545455"
                       >
@@ -2430,7 +2430,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="372.72727272727275"
                       >
@@ -2461,7 +2461,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: middle;"
                         text-anchor="middle"
                         x="400"
                       >
@@ -2516,7 +2516,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -2557,7 +2557,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -2598,7 +2598,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -2639,7 +2639,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -2680,7 +2680,7 @@ exports[`App tests should render default App component 1`] = `
                       <tspan
                         dx="0"
                         dy="0"
-                        style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
+                        style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-axis--tick-label--Fill, #383838); text-anchor: end;"
                         text-anchor="end"
                         x="85"
                       >
@@ -2879,24 +2879,24 @@ exports[`App tests should render default App component 1`] = `
                     style="fill: none;"
                     vector-effect="non-scaling-stroke"
                     width="39.6"
-                    x="616"
+                    x="416"
                     y="113"
                   />
                   <path
-                    d="M 625.128, 131.872
-      h9.743999999999915
-      v-9.743999999999915
-      h-9.743999999999915
+                    d="M 425.128, 131.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
       z"
                     role="presentation"
                     shape-rendering="auto"
                     style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
                   />
                   <path
-                    d="M 625.128, 145.872
-      h9.743999999999915
-      v-9.743999999999915
-      h-9.743999999999915
+                    d="M 425.128, 145.872
+      h9.744000000000028
+      v-9.744000000000028
+      h-9.744000000000028
       z"
                     role="presentation"
                     shape-rendering="auto"
@@ -2906,15 +2906,15 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-revenue-ChartLegend-ChartLabel-0"
-                    x="646.8"
+                    x="446.8"
                     y="131.97"
                   >
                     <tspan
                       dx="0"
                       dy="0"
-                      style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                      style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="646.8"
+                      x="446.8"
                     >
                       2023
                     </tspan>
@@ -2923,15 +2923,15 @@ exports[`App tests should render default App component 1`] = `
                     direction="inherit"
                     dx="0"
                     id="monthly-revenue-ChartLegend-ChartLabel-1"
-                    x="646.8"
+                    x="446.8"
                     y="145.97"
                   >
                     <tspan
                       dx="0"
                       dy="0"
-                      style="font-family: "RedHatText","RedHatText","NotoSansArabic","NotoSansHebrew","NotoSansJP","NotoSansKR","NotoSansMalayalam","NotoSansSC","NotoSansTC","NotoSansThai",Helvetica,Arial,sans-serif; font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
+                      style="font-family: var(--pf-v6-chart-global--FontFamily, 'Red Hat Text', 'RedHatText', 'Noto Sans Arabic', 'Noto Sans Hebrew', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Malayalam', 'Noto Sans SC', 'Noto Sans TC', 'Noto Sans Thai', Helvetica, Arial, sans-serif); font-size: 14px; letter-spacing: normal; padding: 10px; stroke: var(--pf-v6-chart-global--label--stroke, transparent); fill: var(--pf-v6-chart-global--label--Fill, #1f1f1f);"
                       text-anchor="start"
-                      x="646.8"
+                      x="446.8"
                     >
                       2024
                     </tspan>
