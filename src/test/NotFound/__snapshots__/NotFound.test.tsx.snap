@@ -50,7 +50,6 @@ exports[`NotFound tests should render NotFound component 1`] = `
           class="pf-v6-c-empty-state__footer"
         >
           <button
-            aria-disabled="false"
             class="pf-v6-c-button pf-m-primary"
             data-ouia-component-id="OUIA-Generated-Button-primary-1"
             data-ouia-component-type="PF6/Button"
