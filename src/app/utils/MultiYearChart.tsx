@@ -53,41 +53,14 @@ export const RollingMonthlyChart = ({ name, source, legends, lineFn, base = 1000
       .concat(source.filter((row: BrightlineStats) => row.Year === mostRecentYear))
     }
   })(source, mostRecentYear, mostRecentMonth)
-  const minMonth = mostRecentMonth - rollingSource.length + 1
-  if (rollingSource.length < 12) {
-    for (let i = minMonth - 1 ; i > 0 ; i--) {
-      rollingSource.unshift({Year: mostRecentYear, Month: i, short: 0, long: 0, ancillary: 0})
-    }
-    for (let i = 12 ; i > mostRecentMonth ; i--) {
-      rollingSource.unshift({Year: mostRecentYear - 1, Month: i, short: 0, long: 0, ancillary: 0})
-    }
-  }
   const yFns: {(source: BrightlineStats): number;}[] = lineFn // need to just type parameters to this function
   const data: Row[][] = Array.from({length: yFns.length}, () => []);
-  let fakingIt = false
   rollingSource.forEach((stat, ri) => {
     yFns.forEach((yFn, fi) => {
-      const shiftMonth = stat.Month + minMonth - (12 - mostRecentMonth)
-      const x = stat.Month >= minMonth ? shiftMonth : shiftMonth + 12
-      const row: Row = {name: legends_[fi].name, x:x, y: yFn(stat)}
-      if (row.x > 12) {
-        fakingIt = true
-      }
-      row.x = row.x - 1 - (12 - mostRecentMonth)
-      data[fi][ri] = row
+      data[fi][ri] = {name: legends_[fi].name, x:ri + 1, y: yFn(stat)}
     })
   });
   const tickRange = getRangeFromRows(data, base)
-  if (fakingIt) {
-    data.forEach((line, li) => {
-      line.forEach((row, ri) => {
-        if (row.x > mostRecentMonth + 1) {
-          row.y = tickRange[0]
-          data[li][ri] = row
-        }
-      })
-    })
-  }
   return (
     <Chart
       containerComponent={
