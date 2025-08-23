@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`App tests should render default App component 1`] = `
 <DocumentFragment>
@@ -150,6 +150,7 @@ exports[`App tests should render default App component 1`] = `
                 aria-labelledby="Trip Length-1"
                 class="pf-v6-c-nav__subnav"
                 hidden=""
+                inert=""
               >
                 <ul
                   class="pf-v6-c-nav__list"
