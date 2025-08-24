@@ -7,7 +7,6 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
-import fecPlugin from "@redhat-cloud-services/eslint-config-redhat-cloud-services";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -24,8 +23,7 @@ export default [...compat.extends(
 ), {
     plugins: {
         "@typescript-eslint": typescriptEslint,
-        "react-hooks": fixupPluginRules(reactHooks),
-        "fecPlugin": fecPlugin
+        "react-hooks": fixupPluginRules(reactHooks)
     },
 
     languageOptions: {
