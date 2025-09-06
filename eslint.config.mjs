@@ -52,8 +52,7 @@ export default [...compat.extends(
             jsx: true,
             js: true,
             useJSXTextNode: true,
-            project: "./tsconfig.json",
-            tsconfigRootDir: ".",
+            project: "./tsconfig.json"
         },
     },
 
