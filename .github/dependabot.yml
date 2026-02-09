@@ -12,9 +12,11 @@ updates:
     groups:
       patternfly:
         patterns:
-          - "@patternfly"
-      typescript-eslint:
+          - "@patternfly*"
+      eslint:
         patterns:
+          - "eslint"
+          - "@eslint*"
           - "@typescript-eslint*"
   - package-ecosystem: "github-actions"
     directory: "/"
