@@ -15,7 +15,7 @@ updates:
           - "@patternfly*"
       eslint:
         patterns:
-          - "eslint"
+          - "eslint*"
           - "@eslint*"
           - "@typescript-eslint*"
       webpack:
