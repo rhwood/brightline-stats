@@ -1,27 +1,19 @@
-import typescriptEslint from "@typescript-eslint/eslint-plugin";
+import eslintReact from "@eslint-react/eslint-plugin";
+import typescriptEslint from "typescript-eslint";
 import globals from "globals";
-import tsParser from "@typescript-eslint/parser";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
+import { defineConfig } from "eslint/config";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-    baseDirectory: __dirname,
-    recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all
-});
-
-export default [...compat.extends(
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-), {
-    plugins: {
-        "@typescript-eslint": typescriptEslint,
-    },
-
+export default defineConfig({
+    files: [
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    extends: [
+        js.configs.recommended,
+        typescriptEslint.configs.recommended,
+        eslintReact.configs["recommended-typescript"],
+    ],
     languageOptions: {
         globals: {
             ...globals.browser,
@@ -39,8 +31,8 @@ export default [...compat.extends(
             mount: "readonly",
         },
 
-        parser: tsParser,
-        ecmaVersion: 5,
+        parser: typescriptEslint.parser,
+        ecmaVersion: 6,
         sourceType: "commonjs",
 
         parserOptions: {
@@ -48,7 +40,7 @@ export default [...compat.extends(
             jsx: true,
             js: true,
             useJSXTextNode: true,
-            project: "./tsconfig.json"
+            projectService: true,
         },
     },
 
@@ -70,22 +62,4 @@ export default [...compat.extends(
         "import/extensions": "off",
         "react/prop-types": "off",
     },
-}, ...compat.extends("plugin:@typescript-eslint/recommended").map(config => ({
-    ...config,
-    files: ["src/**/*.ts", "src/**/*.tsx"],
-})), {
-    files: ["src/**/*.ts", "src/**/*.tsx"],
-
-    plugins: {
-        "@typescript-eslint": typescriptEslint,
-    },
-
-    languageOptions: {
-        parser: tsParser,
-    },
-
-    rules: {
-        "react/prop-types": "off",
-        "@typescript-eslint/no-unused-vars": "error",
-    },
-}];
+});

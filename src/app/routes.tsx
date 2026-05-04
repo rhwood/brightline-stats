@@ -99,8 +99,8 @@ const flattenedRoutes: IAppRoute[] = routes.reduce(
 
 const AppRoutes = (): React.ReactElement => (
   <Routes>
-    {flattenedRoutes.map(({ path, element }, idx) => (
-      <Route path={path} element={element} key={idx} />
+    {flattenedRoutes.map(({ path, element }) => (
+      <Route path={path} element={element} key={path} />
     ))}
     <Route element={<NotFound />} />
   </Routes>
