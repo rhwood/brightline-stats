@@ -1,6 +1,4 @@
 import typescriptEslint from "@typescript-eslint/eslint-plugin";
-import reactHooks from "eslint-plugin-react-hooks";
-import { fixupPluginRules } from "@eslint/compat";
 import globals from "globals";
 import tsParser from "@typescript-eslint/parser";
 import path from "node:path";
@@ -18,12 +16,10 @@ const compat = new FlatCompat({
 
 export default [...compat.extends(
     "eslint:recommended",
-    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
 ), {
     plugins: {
         "@typescript-eslint": typescriptEslint,
-        "react-hooks": fixupPluginRules(reactHooks)
     },
 
     languageOptions: {
@@ -68,8 +64,6 @@ export default [...compat.extends(
         }],
 
         "@typescript-eslint/explicit-function-return-type": "off",
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
         "@typescript-eslint/interface-name-prefix": "off",
         "prettier/prettier": "off",
         "import/no-unresolved": "off",
