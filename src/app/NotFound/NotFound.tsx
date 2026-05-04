@@ -11,17 +11,17 @@ import { useNavigate } from 'react-router-dom';
 
 const BASE_PATH = process.env.BASE_PATH || '/';
 
-const NotFound: React.FunctionComponent = () => {
-  function GoHomeBtn() {
-    const navigate = useNavigate();
-    function handleClick() {
-      navigate(BASE_PATH);
-    }
-    return (
-      <Button onClick={handleClick}>Take me home</Button>
-    );
+const GoHomeBtn: React.FunctionComponent = () => {
+  const navigate = useNavigate();
+  function handleClick() {
+    navigate(BASE_PATH);
   }
+  return (
+    <Button onClick={handleClick}>Take me home</Button>
+  );
+}
 
+const NotFound: React.FunctionComponent = () => {
   return (
     <PageSection hasBodyWrapper={false}>
     <EmptyState headingLevel="h1" icon={ExclamationTriangleIcon} titleText="404 Page not found" variant="full">
