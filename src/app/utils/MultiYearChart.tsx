@@ -171,7 +171,7 @@ export const getHighestMonth = (source, year: number): number => source.filter((
 );
 export const getMonthlyData = (source, year: number, yFn: (row: BrightlineStats) => number): Row[] => source.filter((row: BrightlineStats) => row.Year === year).reduce(
   (prev: Row[], row: BrightlineStats) => {
-    let y: number = 0
+    let y: number
     try {
       y = yFn(row)
     } finally {
