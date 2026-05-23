@@ -7,7 +7,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
   >
     <h1
       class="pf-v6-c-title pf-m-lg"
-      data-ouia-component-id="OUIA-Generated-Title-1"
+      data-ouia-component-id="OUIA-Generated-Title-_r_0_"
       data-ouia-component-type="PF6/Title"
       data-ouia-safe="true"
     >
@@ -15,14 +15,14 @@ exports[`Short trip tests should render Short trip component 1`] = `
     </h1>
     <div
       class="pf-v6-c-content"
-      data-ouia-component-id="OUIA-Generated-Content-1"
+      data-ouia-component-id="OUIA-Generated-Content-_r_1_"
       data-ouia-component-type="PF6/Content"
       data-ouia-safe="true"
       data-pf-content="true"
     >
       <h3
         class="pf-v6-c-title pf-m-h3"
-        data-ouia-component-id="OUIA-Generated-Title-2"
+        data-ouia-component-id="OUIA-Generated-Title-_r_2_"
         data-ouia-component-type="PF6/Title"
         data-ouia-safe="true"
       >
@@ -45,7 +45,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="400"
@@ -58,7 +58,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="100"
@@ -89,7 +89,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="127.27272727272728"
                 x2="127.27272727272728"
@@ -120,7 +120,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="154.54545454545456"
                 x2="154.54545454545456"
@@ -151,7 +151,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="181.8181818181818"
                 x2="181.8181818181818"
@@ -182,7 +182,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="209.0909090909091"
                 x2="209.0909090909091"
@@ -213,7 +213,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="236.36363636363635"
                 x2="236.36363636363635"
@@ -244,7 +244,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="263.6363636363636"
                 x2="263.6363636363636"
@@ -275,7 +275,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="290.9090909090909"
                 x2="290.9090909090909"
@@ -306,7 +306,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="318.1818181818182"
                 x2="318.1818181818182"
@@ -337,7 +337,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="345.4545454545455"
                 x2="345.4545454545455"
@@ -368,7 +368,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="372.72727272727275"
                 x2="372.72727272727275"
@@ -399,7 +399,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="400"
                 x2="400"
@@ -431,7 +431,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="100"
@@ -444,7 +444,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -454,7 +454,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -485,7 +485,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -495,7 +495,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -526,7 +526,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -536,7 +536,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -567,7 +567,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -577,7 +577,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -608,7 +608,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -618,7 +618,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -845,7 +845,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
             <path
               d="M 425.128, 145.872
@@ -855,7 +855,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
             />
             <text
               direction="inherit"
@@ -906,7 +906,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       </div>
       <h3
         class="pf-v6-c-title pf-m-h3"
-        data-ouia-component-id="OUIA-Generated-Title-3"
+        data-ouia-component-id="OUIA-Generated-Title-_r_3_"
         data-ouia-component-type="PF6/Title"
         data-ouia-safe="true"
       >
@@ -929,7 +929,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="400"
@@ -942,7 +942,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="100"
@@ -973,7 +973,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="127.27272727272728"
                 x2="127.27272727272728"
@@ -1004,7 +1004,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="154.54545454545456"
                 x2="154.54545454545456"
@@ -1035,7 +1035,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="181.8181818181818"
                 x2="181.8181818181818"
@@ -1066,7 +1066,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="209.0909090909091"
                 x2="209.0909090909091"
@@ -1097,7 +1097,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="236.36363636363635"
                 x2="236.36363636363635"
@@ -1128,7 +1128,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="263.6363636363636"
                 x2="263.6363636363636"
@@ -1159,7 +1159,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="290.9090909090909"
                 x2="290.9090909090909"
@@ -1190,7 +1190,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="318.1818181818182"
                 x2="318.1818181818182"
@@ -1221,7 +1221,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="345.4545454545455"
                 x2="345.4545454545455"
@@ -1252,7 +1252,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="372.72727272727275"
                 x2="372.72727272727275"
@@ -1283,7 +1283,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="400"
                 x2="400"
@@ -1315,7 +1315,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="100"
@@ -1328,7 +1328,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1338,7 +1338,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1369,7 +1369,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1379,7 +1379,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1410,7 +1410,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1420,7 +1420,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1451,7 +1451,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1461,7 +1461,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1492,7 +1492,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -1502,7 +1502,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -1729,7 +1729,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
             <path
               d="M 425.128, 145.872
@@ -1739,7 +1739,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
             />
             <text
               direction="inherit"
@@ -1790,7 +1790,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       </div>
       <h3
         class="pf-v6-c-title pf-m-h3"
-        data-ouia-component-id="OUIA-Generated-Title-4"
+        data-ouia-component-id="OUIA-Generated-Title-_r_4_"
         data-ouia-component-type="PF6/Title"
         data-ouia-safe="true"
       >
@@ -1813,7 +1813,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="400"
@@ -1826,7 +1826,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="100"
@@ -1857,7 +1857,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="127.27272727272728"
                 x2="127.27272727272728"
@@ -1888,7 +1888,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="154.54545454545456"
                 x2="154.54545454545456"
@@ -1919,7 +1919,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="181.8181818181818"
                 x2="181.8181818181818"
@@ -1950,7 +1950,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="209.0909090909091"
                 x2="209.0909090909091"
@@ -1981,7 +1981,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="236.36363636363635"
                 x2="236.36363636363635"
@@ -2012,7 +2012,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="263.6363636363636"
                 x2="263.6363636363636"
@@ -2043,7 +2043,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="290.9090909090909"
                 x2="290.9090909090909"
@@ -2074,7 +2074,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="318.1818181818182"
                 x2="318.1818181818182"
@@ -2105,7 +2105,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="345.4545454545455"
                 x2="345.4545454545455"
@@ -2136,7 +2136,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="372.72727272727275"
                 x2="372.72727272727275"
@@ -2167,7 +2167,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="400"
                 x2="400"
@@ -2199,7 +2199,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
             <line
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
+              style="stroke: var(--pf-v6-chart-axis--axis--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--axis--Fill, transparent); stroke-width: 1; stroke-linecap: round; stroke-linejoin: round;"
               vector-effect="non-scaling-stroke"
               x1="100"
               x2="100"
@@ -2212,7 +2212,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -2222,7 +2222,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -2253,7 +2253,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -2263,7 +2263,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -2294,7 +2294,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -2304,7 +2304,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -2335,7 +2335,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -2345,7 +2345,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -2376,7 +2376,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
+                style="stroke: var(--pf-v6-chart-axis--grid--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--grid--Fill, none); pointer-events: painted; stroke-linecap: round; stroke-linejoin: round;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="400"
@@ -2386,7 +2386,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
               <line
                 role="presentation"
                 shape-rendering="auto"
-                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #c7c7c7); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
+                style="stroke: var(--pf-v6-chart-axis--tick--stroke--Color, #e0e0e0); fill: var(--pf-v6-chart-axis--tick--Fill, transparent); size: 5px; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1;"
                 vector-effect="non-scaling-stroke"
                 x1="100"
                 x2="95"
@@ -2613,7 +2613,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
             <path
               d="M 425.128, 145.872
@@ -2623,7 +2623,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
             />
             <text
               direction="inherit"
@@ -2674,7 +2674,7 @@ exports[`Short trip tests should render Short trip component 1`] = `
       </div>
       <h3
         class="pf-v6-c-title pf-m-h3"
-        data-ouia-component-id="OUIA-Generated-Title-5"
+        data-ouia-component-id="OUIA-Generated-Title-_r_5_"
         data-ouia-component-type="PF6/Title"
         data-ouia-safe="true"
       >
@@ -2682,14 +2682,14 @@ exports[`Short trip tests should render Short trip component 1`] = `
       </h3>
       <ul
         class="pf-v6-c-content--ul pf-m-plain"
-        data-ouia-component-id="OUIA-Generated-Content-2"
+        data-ouia-component-id="OUIA-Generated-Content-_r_6_"
         data-ouia-component-type="PF6/Content"
         data-ouia-safe="true"
         data-pf-content="true"
       >
         <li
           class="pf-v6-c-content--li"
-          data-ouia-component-id="OUIA-Generated-Content-3"
+          data-ouia-component-id="OUIA-Generated-Content-_r_7_"
           data-ouia-component-type="PF6/Content"
           data-ouia-safe="true"
           data-pf-content="true"
