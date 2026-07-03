@@ -854,7 +854,7 @@ exports[`Revenues tests should render Revenues component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgb(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
             <path
               d="M 425.128, 145.872
@@ -864,7 +864,7 @@ exports[`Revenues tests should render Revenues component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgb(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
             />
             <text
               direction="inherit"
@@ -1827,7 +1827,7 @@ exports[`Revenues tests should render Revenues component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgb(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--100, #0066cc);"
             />
             <path
               d="M 425.128, 138.872
@@ -1837,7 +1837,7 @@ exports[`Revenues tests should render Revenues component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgb(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--200, #dca614);"
             />
             <path
               d="M 425.128, 152.872
@@ -1847,7 +1847,7 @@ exports[`Revenues tests should render Revenues component 1`] = `
       z"
               role="presentation"
               shape-rendering="auto"
-              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgba(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--300, #63993d);"
+              style="stroke: var(--pf-v6-chart-legend--data--stroke--Color, rgb(255, 255, 255, 0.0000)); stroke-width: var(--pf-v6-chart-legend--data--stroke--Width, 0px); fill: var(--pf-v6-chart-theme--multi-color-unordered--ColorScale--300, #63993d);"
             />
             <text
               direction="inherit"
