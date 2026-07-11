@@ -47,7 +47,7 @@
     "mini-css-extract-plugin": "2.10.2",
     "papaparse": "5.5.4",
     "postcss": "8.5.16",
-    "prettier": "3.9.4",
+    "prettier": "3.9.5",
     "prop-types": "15.8.1",
     "raw-loader": "4.0.2",
     "react-axe": "3.5.4",
