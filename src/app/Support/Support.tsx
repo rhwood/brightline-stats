@@ -30,7 +30,7 @@ let Support: React.FunctionComponent<ISupportProps> = () => (
             any issues on GitHub.
           </Content>
           <Content component="p">
-            Built with ❤️ and ☕️ in Herndon, Virginia.
+            Made by ✋ with ❤️ and ☕️ in Herndon, Virginia.
           </Content>
         </Content>
       </EmptyStateBody><EmptyStateFooter>
