@@ -138,7 +138,11 @@ exports[`App tests should render default App component 1`] = `
                   class="pf-v6-c-nav__link"
                   id="Trip Length-1"
                 >
-                  Trip Length
+                  <span
+                    class="pf-v6-c-nav__link-text"
+                  >
+                    Trip Length
+                  </span>
                   <span
                     class="pf-v6-c-nav__toggle"
                   >
@@ -165,6 +169,7 @@ exports[`App tests should render default App component 1`] = `
                   aria-labelledby="Trip Length-1"
                   class="pf-v6-c-nav__subnav"
                   hidden=""
+                  inert=""
                 >
                   <ul
                     class="pf-v6-c-nav__list"
